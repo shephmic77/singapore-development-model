@@ -8,4 +8,4 @@ The lightweight `validate_repository.R` uses base R to check files, local report
 & 'C:\Program Files\R\R-4.5.1\bin\Rscript.exe' tests/validate_repository.R
 ```
 
-GitHub Actions runs this repository check on pushes and pull requests. This is distinct from a full source download and statistical reproduction.
+Run this repository check locally when needed. It is distinct from a full source download and statistical reproduction.
