@@ -1,0 +1,18 @@
+.R-library/
+data/raw/
+*.Rhistory
+*.RData
+.Rproj.user/
+
+# Private coursework/background and local tooling
+docs/original_request.txt
+.env
+.env.*
+!.env.example
+.Renviron
+.Rprofile.local
+*.pem
+*.key
+*.log
+.DS_Store
+Thumbs.db

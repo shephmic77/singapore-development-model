@@ -1,0 +1,5 @@
+PASS: original V-Dem values and correct score/bound reversal; source identity exclusions;
+SWIID published summary values preserved; uncertainty bands; same 2016 comparison for all 11 cases;
+SWIID unresolved draw formats explicitly withheld from regression; no guessed correction;
+UNDP source values, rank/aggregate exclusion, Latin-1 decoding, missing Hong Kong and annual score gates;
+exact predictor-year joins; identical baseline/ownership samples; sample gates; intervals; source/archive checksums.

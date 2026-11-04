@@ -1,0 +1,109 @@
+"outcome","model","welfare_type","term","vif","residual_predictor_sd"
+"economic_growth","Matched sample: without public investment","Not applicable","democracy",1.01238196452289,0.0576905761086992
+"economic_growth","Matched sample: without public investment","Not applicable","trade",1.07580737247896,13.7183164554391
+"economic_growth","Matched sample: without public investment","Not applicable","effectiveness",1.24189080294092,0.189627132979167
+"economic_growth","Matched sample: without public investment","Not applicable","log_income",1.39750811588855,0.109475403720797
+"economic_growth","Matched sample: without public investment","Not applicable","log_population",1.18663309396578,0.0688276477089386
+"economic_growth","Matched sample: with public investment","Not applicable","democracy",1.01270837501168,0.0576905761086992
+"economic_growth","Matched sample: with public investment","Not applicable","trade",1.07626956296435,13.7183164554391
+"economic_growth","Matched sample: with public investment","Not applicable","effectiveness",1.24707967688917,0.189627132979167
+"economic_growth","Matched sample: with public investment","Not applicable","log_income",1.40727645461279,0.109475403720797
+"economic_growth","Matched sample: with public investment","Not applicable","log_population",1.22246166480083,0.0688276477089386
+"economic_growth","Matched sample: with public investment","Not applicable","public_investment",1.0438522372296,2.10503583536372
+"economic_growth","Sensitivity: income control omitted","Not applicable","democracy",1.01262064017474,0.0576905761086992
+"economic_growth","Sensitivity: income control omitted","Not applicable","trade",1.04991765707759,13.7183164554391
+"economic_growth","Sensitivity: income control omitted","Not applicable","effectiveness",1.0310338444821,0.189627132979167
+"economic_growth","Sensitivity: income control omitted","Not applicable","log_population",1.06910552188965,0.0688276477089386
+"economic_growth","Sensitivity: income control omitted","Not applicable","public_investment",1.03660653778093,2.10503583536372
+"economic_growth","Sensitivity: include 2020 outcome","Not applicable","democracy",1.01134756160434,0.0596866283821344
+"economic_growth","Sensitivity: include 2020 outcome","Not applicable","trade",1.07705805386791,13.901888735317
+"economic_growth","Sensitivity: include 2020 outcome","Not applicable","effectiveness",1.24031900879215,0.191341335708924
+"economic_growth","Sensitivity: include 2020 outcome","Not applicable","log_income",1.40567610604671,0.112858400351386
+"economic_growth","Sensitivity: include 2020 outcome","Not applicable","log_population",1.22746057961476,0.0717462518652232
+"economic_growth","Sensitivity: include 2020 outcome","Not applicable","public_investment",1.04018517043011,2.11262996657838
+"living_available_basket","Matched sample: without public investment","Not applicable","democracy",1.01201852524854,0.0578094170679049
+"living_available_basket","Matched sample: without public investment","Not applicable","trade",1.07956323928069,13.13955902898
+"living_available_basket","Matched sample: without public investment","Not applicable","effectiveness",1.24165571881241,0.189579095228859
+"living_available_basket","Matched sample: without public investment","Not applicable","log_income",1.40381984972282,0.109635210530069
+"living_available_basket","Matched sample: without public investment","Not applicable","log_population",1.18572438632254,0.0688832070732065
+"living_available_basket","Matched sample: with public investment","Not applicable","democracy",1.01235650000188,0.0578094170679049
+"living_available_basket","Matched sample: with public investment","Not applicable","trade",1.08015057494717,13.13955902898
+"living_available_basket","Matched sample: with public investment","Not applicable","effectiveness",1.24706378596846,0.189579095228859
+"living_available_basket","Matched sample: with public investment","Not applicable","log_income",1.4137472162325,0.109635210530069
+"living_available_basket","Matched sample: with public investment","Not applicable","log_population",1.22171304518762,0.0688832070732065
+"living_available_basket","Matched sample: with public investment","Not applicable","public_investment",1.04429456261308,2.10863716481225
+"living_available_basket","Sensitivity: income control omitted","Not applicable","democracy",1.01225671631199,0.0578094170679049
+"living_available_basket","Sensitivity: income control omitted","Not applicable","trade",1.04824937251733,13.13955902898
+"living_available_basket","Sensitivity: income control omitted","Not applicable","effectiveness",1.0316823793469,0.189579095228859
+"living_available_basket","Sensitivity: income control omitted","Not applicable","log_population",1.06720340123714,0.0688832070732065
+"living_available_basket","Sensitivity: income control omitted","Not applicable","public_investment",1.0369615014066,2.10863716481225
+"living_available_basket","Sensitivity: include 2020 outcome","Not applicable","democracy",1.01099880054694,0.0598066922544888
+"living_available_basket","Sensitivity: include 2020 outcome","Not applicable","trade",1.08063963882017,13.3633573505305
+"living_available_basket","Sensitivity: include 2020 outcome","Not applicable","effectiveness",1.24019041037159,0.191311893787958
+"living_available_basket","Sensitivity: include 2020 outcome","Not applicable","log_income",1.41093455512276,0.113039213338166
+"living_available_basket","Sensitivity: include 2020 outcome","Not applicable","log_population",1.22738901696868,0.0718103492161141
+"living_available_basket","Sensitivity: include 2020 outcome","Not applicable","public_investment",1.04078458235746,2.11637075987075
+"gini_0_100","Survey model: no public-investment term","income","democracy",1.00639452103401,0.034145344336538
+"gini_0_100","Survey model: no public-investment term","income","trade",1.11000018877751,11.0946123095595
+"gini_0_100","Survey model: no public-investment term","income","effectiveness",1.21294599830187,0.146903599326746
+"gini_0_100","Survey model: no public-investment term","income","log_income",1.17986600938317,0.069827674021536
+"gini_0_100","Survey model: no public-investment term","income","log_population",1.13440494418313,0.0388035654086028
+"gini_0_100","Matched sample: without public investment","income","democracy",1.02068771318184,0.0266061705692134
+"gini_0_100","Matched sample: without public investment","income","trade",1.13757144588872,10.3047010036441
+"gini_0_100","Matched sample: without public investment","income","effectiveness",1.23642548593593,0.145162319705416
+"gini_0_100","Matched sample: without public investment","income","log_income",1.25986358979128,0.0664620054160446
+"gini_0_100","Matched sample: without public investment","income","log_population",1.12723529402188,0.0332132081508962
+"gini_0_100","Matched sample: with public investment","income","democracy",1.06221105601842,0.0266061705692134
+"gini_0_100","Matched sample: with public investment","income","trade",1.15287282603469,10.3047010036441
+"gini_0_100","Matched sample: with public investment","income","effectiveness",1.23677311906546,0.145162319705416
+"gini_0_100","Matched sample: with public investment","income","log_income",1.33498107769121,0.0664620054160446
+"gini_0_100","Matched sample: with public investment","income","log_population",1.13817535947959,0.0332132081508962
+"gini_0_100","Matched sample: with public investment","income","public_investment",1.16984476831012,0.883536464283141
+"poverty_3usd_pct","Survey model: no public-investment term","income","democracy",1.00639452103401,0.034145344336538
+"poverty_3usd_pct","Survey model: no public-investment term","income","trade",1.11000018877751,11.0946123095595
+"poverty_3usd_pct","Survey model: no public-investment term","income","effectiveness",1.21294599830187,0.146903599326746
+"poverty_3usd_pct","Survey model: no public-investment term","income","log_income",1.17986600938317,0.069827674021536
+"poverty_3usd_pct","Survey model: no public-investment term","income","log_population",1.13440494418313,0.0388035654086028
+"poverty_3usd_pct","Matched sample: without public investment","income","democracy",1.02068771318184,0.0266061705692134
+"poverty_3usd_pct","Matched sample: without public investment","income","trade",1.13757144588872,10.3047010036441
+"poverty_3usd_pct","Matched sample: without public investment","income","effectiveness",1.23642548593593,0.145162319705416
+"poverty_3usd_pct","Matched sample: without public investment","income","log_income",1.25986358979128,0.0664620054160446
+"poverty_3usd_pct","Matched sample: without public investment","income","log_population",1.12723529402188,0.0332132081508962
+"poverty_3usd_pct","Matched sample: with public investment","income","democracy",1.06221105601842,0.0266061705692134
+"poverty_3usd_pct","Matched sample: with public investment","income","trade",1.15287282603469,10.3047010036441
+"poverty_3usd_pct","Matched sample: with public investment","income","effectiveness",1.23677311906546,0.145162319705416
+"poverty_3usd_pct","Matched sample: with public investment","income","log_income",1.33498107769121,0.0664620054160446
+"poverty_3usd_pct","Matched sample: with public investment","income","log_population",1.13817535947959,0.0332132081508962
+"poverty_3usd_pct","Matched sample: with public investment","income","public_investment",1.16984476831012,0.883536464283141
+"gini_0_100","Survey model: no public-investment term","consumption","democracy",1.02415860141308,0.0646622632042757
+"gini_0_100","Survey model: no public-investment term","consumption","trade",1.081793345981,10.7396865111694
+"gini_0_100","Survey model: no public-investment term","consumption","effectiveness",1.16492652340782,0.16502698535923
+"gini_0_100","Survey model: no public-investment term","consumption","log_income",1.28528834159591,0.0811713667093049
+"gini_0_100","Survey model: no public-investment term","consumption","log_population",1.34570632593525,0.0533651508437174
+"gini_0_100","Matched sample: without public investment","consumption","democracy",1.06319530041893,0.0623862134724161
+"gini_0_100","Matched sample: without public investment","consumption","trade",1.08263856500097,10.3256555729079
+"gini_0_100","Matched sample: without public investment","consumption","effectiveness",1.12824306923715,0.157781542634785
+"gini_0_100","Matched sample: without public investment","consumption","log_income",1.26031694722902,0.0790976281154912
+"gini_0_100","Matched sample: without public investment","consumption","log_population",1.27828146914889,0.0489617479734035
+"gini_0_100","Matched sample: with public investment","consumption","democracy",1.06329810007766,0.0623862134724161
+"gini_0_100","Matched sample: with public investment","consumption","trade",1.08385199094641,10.3256555729079
+"gini_0_100","Matched sample: with public investment","consumption","effectiveness",1.16724554639736,0.157781542634785
+"gini_0_100","Matched sample: with public investment","consumption","log_income",1.30759242871308,0.0790976281154912
+"gini_0_100","Matched sample: with public investment","consumption","log_population",1.35224492255424,0.0489617479734035
+"gini_0_100","Matched sample: with public investment","consumption","public_investment",1.10693344621404,1.24119914327657
+"poverty_3usd_pct","Survey model: no public-investment term","consumption","democracy",1.02415860141308,0.0646622632042757
+"poverty_3usd_pct","Survey model: no public-investment term","consumption","trade",1.081793345981,10.7396865111694
+"poverty_3usd_pct","Survey model: no public-investment term","consumption","effectiveness",1.16492652340782,0.16502698535923
+"poverty_3usd_pct","Survey model: no public-investment term","consumption","log_income",1.28528834159591,0.0811713667093049
+"poverty_3usd_pct","Survey model: no public-investment term","consumption","log_population",1.34570632593525,0.0533651508437174
+"poverty_3usd_pct","Matched sample: without public investment","consumption","democracy",1.06319530041893,0.0623862134724161
+"poverty_3usd_pct","Matched sample: without public investment","consumption","trade",1.08263856500097,10.3256555729079
+"poverty_3usd_pct","Matched sample: without public investment","consumption","effectiveness",1.12824306923715,0.157781542634785
+"poverty_3usd_pct","Matched sample: without public investment","consumption","log_income",1.26031694722902,0.0790976281154912
+"poverty_3usd_pct","Matched sample: without public investment","consumption","log_population",1.27828146914889,0.0489617479734035
+"poverty_3usd_pct","Matched sample: with public investment","consumption","democracy",1.06329810007766,0.0623862134724161
+"poverty_3usd_pct","Matched sample: with public investment","consumption","trade",1.08385199094641,10.3256555729079
+"poverty_3usd_pct","Matched sample: with public investment","consumption","effectiveness",1.16724554639736,0.157781542634785
+"poverty_3usd_pct","Matched sample: with public investment","consumption","log_income",1.30759242871308,0.0790976281154912
+"poverty_3usd_pct","Matched sample: with public investment","consumption","log_population",1.35224492255424,0.0489617479734035
+"poverty_3usd_pct","Matched sample: with public investment","consumption","public_investment",1.10693344621404,1.24119914327657

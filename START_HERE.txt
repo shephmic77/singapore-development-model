@@ -1,0 +1,16 @@
+SODA 308: Singapore Development Model
+
+1. Open outputs/BETTER_MEASURES.html for the latest ownership and social-data update.
+   Open outputs/CURRENT_RESULTS.html for the broader project overview.
+2. Open outputs/START_HERE.html for all labeled datasets and original charts.
+3. Read docs/current_methods.md for methods and docs/current_results.md for findings and gaps.
+4. Use data/readable and outputs/readable_tables for plain-language datasets.
+
+In RStudio, run everything with:
+source("run_all.R")
+
+Open the current results from RStudio with:
+browseURL(normalizePath("outputs/BETTER_MEASURES.html"))
+
+This is exploratory research, not a causal evaluation or a finished policy-transfer claim.
+

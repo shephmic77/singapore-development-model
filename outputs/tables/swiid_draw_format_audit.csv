@@ -1,0 +1,5 @@
+"format","variable","n_draws","raw_min","raw_max","max_gap_to_summary","max_gap_after_diagnostic_division100","decision"
+"R supplied draws","gini_disp",100,1379.0583,7311.1537,6326.793682,6.17744202,"Withheld from regression: supplied scale and summary concordance not validated"
+"Stata supplied draws","gini_disp",100,13.7905826568604,73.1115341186523,6.17744209289551,,"Withheld from regression: unresolved discrepancies against published summary; not asserted to be a provider error"
+"R supplied draws","gini_mkt",100,2073.6129,7826.5804,7163.322473,3.75827332,"Withheld from regression: supplied scale and summary concordance not validated"
+"Stata supplied draws","gini_mkt",100,20.7361297607422,78.2658004760742,3.75827335357666,,"Withheld from regression: unresolved discrepancies against published summary; not asserted to be a provider error"

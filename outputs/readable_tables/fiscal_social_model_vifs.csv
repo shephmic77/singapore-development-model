@@ -1,0 +1,109 @@
+"Outcome being studied","Model specification","Welfare measured as income or consumption","Model predictor","Variance inflation factor after removing fixed effects","Predictor standard deviation after removing fixed effects"
+"Real GDP per capita growth","Matched sample: without public investment","Not applicable","Electoral democracy (0-1)",1.01238196452289,0.0576905761086992
+"Real GDP per capita growth","Matched sample: without public investment","Not applicable","Trade share (percent GDP)",1.07580737247896,13.7183164554391
+"Real GDP per capita growth","Matched sample: without public investment","Not applicable","Government effectiveness (estimate units)",1.24189080294092,0.189627132979167
+"Real GDP per capita growth","Matched sample: without public investment","Not applicable","Log PPP GDP per capita",1.39750811588855,0.109475403720797
+"Real GDP per capita growth","Matched sample: without public investment","Not applicable","Log population",1.18663309396578,0.0688276477089386
+"Real GDP per capita growth","Matched sample: with public investment","Not applicable","Electoral democracy (0-1)",1.01270837501168,0.0576905761086992
+"Real GDP per capita growth","Matched sample: with public investment","Not applicable","Trade share (percent GDP)",1.07626956296435,13.7183164554391
+"Real GDP per capita growth","Matched sample: with public investment","Not applicable","Government effectiveness (estimate units)",1.24707967688917,0.189627132979167
+"Real GDP per capita growth","Matched sample: with public investment","Not applicable","Log PPP GDP per capita",1.40727645461279,0.109475403720797
+"Real GDP per capita growth","Matched sample: with public investment","Not applicable","Log population",1.22246166480083,0.0688276477089386
+"Real GDP per capita growth","Matched sample: with public investment","Not applicable","Previous-year government fixed investment (percent GDP)",1.0438522372296,2.10503583536372
+"Real GDP per capita growth","Sensitivity: income control omitted","Not applicable","Electoral democracy (0-1)",1.01262064017474,0.0576905761086992
+"Real GDP per capita growth","Sensitivity: income control omitted","Not applicable","Trade share (percent GDP)",1.04991765707759,13.7183164554391
+"Real GDP per capita growth","Sensitivity: income control omitted","Not applicable","Government effectiveness (estimate units)",1.0310338444821,0.189627132979167
+"Real GDP per capita growth","Sensitivity: income control omitted","Not applicable","Log population",1.06910552188965,0.0688276477089386
+"Real GDP per capita growth","Sensitivity: income control omitted","Not applicable","Previous-year government fixed investment (percent GDP)",1.03660653778093,2.10503583536372
+"Real GDP per capita growth","Sensitivity: include 2020 outcome","Not applicable","Electoral democracy (0-1)",1.01134756160434,0.0596866283821344
+"Real GDP per capita growth","Sensitivity: include 2020 outcome","Not applicable","Trade share (percent GDP)",1.07705805386791,13.901888735317
+"Real GDP per capita growth","Sensitivity: include 2020 outcome","Not applicable","Government effectiveness (estimate units)",1.24031900879215,0.191341335708924
+"Real GDP per capita growth","Sensitivity: include 2020 outcome","Not applicable","Log PPP GDP per capita",1.40567610604671,0.112858400351386
+"Real GDP per capita growth","Sensitivity: include 2020 outcome","Not applicable","Log population",1.22746057961476,0.0717462518652232
+"Real GDP per capita growth","Sensitivity: include 2020 outcome","Not applicable","Previous-year government fixed investment (percent GDP)",1.04018517043011,2.11262996657838
+"Living standards: available-indicator basket","Matched sample: without public investment","Not applicable","Electoral democracy (0-1)",1.01201852524854,0.0578094170679049
+"Living standards: available-indicator basket","Matched sample: without public investment","Not applicable","Trade share (percent GDP)",1.07956323928069,13.13955902898
+"Living standards: available-indicator basket","Matched sample: without public investment","Not applicable","Government effectiveness (estimate units)",1.24165571881241,0.189579095228859
+"Living standards: available-indicator basket","Matched sample: without public investment","Not applicable","Log PPP GDP per capita",1.40381984972282,0.109635210530069
+"Living standards: available-indicator basket","Matched sample: without public investment","Not applicable","Log population",1.18572438632254,0.0688832070732065
+"Living standards: available-indicator basket","Matched sample: with public investment","Not applicable","Electoral democracy (0-1)",1.01235650000188,0.0578094170679049
+"Living standards: available-indicator basket","Matched sample: with public investment","Not applicable","Trade share (percent GDP)",1.08015057494717,13.13955902898
+"Living standards: available-indicator basket","Matched sample: with public investment","Not applicable","Government effectiveness (estimate units)",1.24706378596846,0.189579095228859
+"Living standards: available-indicator basket","Matched sample: with public investment","Not applicable","Log PPP GDP per capita",1.4137472162325,0.109635210530069
+"Living standards: available-indicator basket","Matched sample: with public investment","Not applicable","Log population",1.22171304518762,0.0688832070732065
+"Living standards: available-indicator basket","Matched sample: with public investment","Not applicable","Previous-year government fixed investment (percent GDP)",1.04429456261308,2.10863716481225
+"Living standards: available-indicator basket","Sensitivity: income control omitted","Not applicable","Electoral democracy (0-1)",1.01225671631199,0.0578094170679049
+"Living standards: available-indicator basket","Sensitivity: income control omitted","Not applicable","Trade share (percent GDP)",1.04824937251733,13.13955902898
+"Living standards: available-indicator basket","Sensitivity: income control omitted","Not applicable","Government effectiveness (estimate units)",1.0316823793469,0.189579095228859
+"Living standards: available-indicator basket","Sensitivity: income control omitted","Not applicable","Log population",1.06720340123714,0.0688832070732065
+"Living standards: available-indicator basket","Sensitivity: income control omitted","Not applicable","Previous-year government fixed investment (percent GDP)",1.0369615014066,2.10863716481225
+"Living standards: available-indicator basket","Sensitivity: include 2020 outcome","Not applicable","Electoral democracy (0-1)",1.01099880054694,0.0598066922544888
+"Living standards: available-indicator basket","Sensitivity: include 2020 outcome","Not applicable","Trade share (percent GDP)",1.08063963882017,13.3633573505305
+"Living standards: available-indicator basket","Sensitivity: include 2020 outcome","Not applicable","Government effectiveness (estimate units)",1.24019041037159,0.191311893787958
+"Living standards: available-indicator basket","Sensitivity: include 2020 outcome","Not applicable","Log PPP GDP per capita",1.41093455512276,0.113039213338166
+"Living standards: available-indicator basket","Sensitivity: include 2020 outcome","Not applicable","Log population",1.22738901696868,0.0718103492161141
+"Living standards: available-indicator basket","Sensitivity: include 2020 outcome","Not applicable","Previous-year government fixed investment (percent GDP)",1.04078458235746,2.11637075987075
+"Gini inequality (0-100 points)","Survey model: no public-investment term","income","Electoral democracy (0-1)",1.00639452103401,0.034145344336538
+"Gini inequality (0-100 points)","Survey model: no public-investment term","income","Trade share (percent GDP)",1.11000018877751,11.0946123095595
+"Gini inequality (0-100 points)","Survey model: no public-investment term","income","Government effectiveness (estimate units)",1.21294599830187,0.146903599326746
+"Gini inequality (0-100 points)","Survey model: no public-investment term","income","Log PPP GDP per capita",1.17986600938317,0.069827674021536
+"Gini inequality (0-100 points)","Survey model: no public-investment term","income","Log population",1.13440494418313,0.0388035654086028
+"Gini inequality (0-100 points)","Matched sample: without public investment","income","Electoral democracy (0-1)",1.02068771318184,0.0266061705692134
+"Gini inequality (0-100 points)","Matched sample: without public investment","income","Trade share (percent GDP)",1.13757144588872,10.3047010036441
+"Gini inequality (0-100 points)","Matched sample: without public investment","income","Government effectiveness (estimate units)",1.23642548593593,0.145162319705416
+"Gini inequality (0-100 points)","Matched sample: without public investment","income","Log PPP GDP per capita",1.25986358979128,0.0664620054160446
+"Gini inequality (0-100 points)","Matched sample: without public investment","income","Log population",1.12723529402188,0.0332132081508962
+"Gini inequality (0-100 points)","Matched sample: with public investment","income","Electoral democracy (0-1)",1.06221105601842,0.0266061705692134
+"Gini inequality (0-100 points)","Matched sample: with public investment","income","Trade share (percent GDP)",1.15287282603469,10.3047010036441
+"Gini inequality (0-100 points)","Matched sample: with public investment","income","Government effectiveness (estimate units)",1.23677311906546,0.145162319705416
+"Gini inequality (0-100 points)","Matched sample: with public investment","income","Log PPP GDP per capita",1.33498107769121,0.0664620054160446
+"Gini inequality (0-100 points)","Matched sample: with public investment","income","Log population",1.13817535947959,0.0332132081508962
+"Gini inequality (0-100 points)","Matched sample: with public investment","income","Previous-year government fixed investment (percent GDP)",1.16984476831012,0.883536464283141
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","income","Electoral democracy (0-1)",1.00639452103401,0.034145344336538
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","income","Trade share (percent GDP)",1.11000018877751,11.0946123095595
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","income","Government effectiveness (estimate units)",1.21294599830187,0.146903599326746
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","income","Log PPP GDP per capita",1.17986600938317,0.069827674021536
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","income","Log population",1.13440494418313,0.0388035654086028
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","income","Electoral democracy (0-1)",1.02068771318184,0.0266061705692134
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","income","Trade share (percent GDP)",1.13757144588872,10.3047010036441
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","income","Government effectiveness (estimate units)",1.23642548593593,0.145162319705416
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","income","Log PPP GDP per capita",1.25986358979128,0.0664620054160446
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","income","Log population",1.12723529402188,0.0332132081508962
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","income","Electoral democracy (0-1)",1.06221105601842,0.0266061705692134
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","income","Trade share (percent GDP)",1.15287282603469,10.3047010036441
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","income","Government effectiveness (estimate units)",1.23677311906546,0.145162319705416
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","income","Log PPP GDP per capita",1.33498107769121,0.0664620054160446
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","income","Log population",1.13817535947959,0.0332132081508962
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","income","Previous-year government fixed investment (percent GDP)",1.16984476831012,0.883536464283141
+"Gini inequality (0-100 points)","Survey model: no public-investment term","consumption","Electoral democracy (0-1)",1.02415860141308,0.0646622632042757
+"Gini inequality (0-100 points)","Survey model: no public-investment term","consumption","Trade share (percent GDP)",1.081793345981,10.7396865111694
+"Gini inequality (0-100 points)","Survey model: no public-investment term","consumption","Government effectiveness (estimate units)",1.16492652340782,0.16502698535923
+"Gini inequality (0-100 points)","Survey model: no public-investment term","consumption","Log PPP GDP per capita",1.28528834159591,0.0811713667093049
+"Gini inequality (0-100 points)","Survey model: no public-investment term","consumption","Log population",1.34570632593525,0.0533651508437174
+"Gini inequality (0-100 points)","Matched sample: without public investment","consumption","Electoral democracy (0-1)",1.06319530041893,0.0623862134724161
+"Gini inequality (0-100 points)","Matched sample: without public investment","consumption","Trade share (percent GDP)",1.08263856500097,10.3256555729079
+"Gini inequality (0-100 points)","Matched sample: without public investment","consumption","Government effectiveness (estimate units)",1.12824306923715,0.157781542634785
+"Gini inequality (0-100 points)","Matched sample: without public investment","consumption","Log PPP GDP per capita",1.26031694722902,0.0790976281154912
+"Gini inequality (0-100 points)","Matched sample: without public investment","consumption","Log population",1.27828146914889,0.0489617479734035
+"Gini inequality (0-100 points)","Matched sample: with public investment","consumption","Electoral democracy (0-1)",1.06329810007766,0.0623862134724161
+"Gini inequality (0-100 points)","Matched sample: with public investment","consumption","Trade share (percent GDP)",1.08385199094641,10.3256555729079
+"Gini inequality (0-100 points)","Matched sample: with public investment","consumption","Government effectiveness (estimate units)",1.16724554639736,0.157781542634785
+"Gini inequality (0-100 points)","Matched sample: with public investment","consumption","Log PPP GDP per capita",1.30759242871308,0.0790976281154912
+"Gini inequality (0-100 points)","Matched sample: with public investment","consumption","Log population",1.35224492255424,0.0489617479734035
+"Gini inequality (0-100 points)","Matched sample: with public investment","consumption","Previous-year government fixed investment (percent GDP)",1.10693344621404,1.24119914327657
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","consumption","Electoral democracy (0-1)",1.02415860141308,0.0646622632042757
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","consumption","Trade share (percent GDP)",1.081793345981,10.7396865111694
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","consumption","Government effectiveness (estimate units)",1.16492652340782,0.16502698535923
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","consumption","Log PPP GDP per capita",1.28528834159591,0.0811713667093049
+"Poverty below USD 3 per day (percent; 2021 PPP)","Survey model: no public-investment term","consumption","Log population",1.34570632593525,0.0533651508437174
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","consumption","Electoral democracy (0-1)",1.06319530041893,0.0623862134724161
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","consumption","Trade share (percent GDP)",1.08263856500097,10.3256555729079
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","consumption","Government effectiveness (estimate units)",1.12824306923715,0.157781542634785
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","consumption","Log PPP GDP per capita",1.26031694722902,0.0790976281154912
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: without public investment","consumption","Log population",1.27828146914889,0.0489617479734035
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","consumption","Electoral democracy (0-1)",1.06329810007766,0.0623862134724161
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","consumption","Trade share (percent GDP)",1.08385199094641,10.3256555729079
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","consumption","Government effectiveness (estimate units)",1.16724554639736,0.157781542634785
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","consumption","Log PPP GDP per capita",1.30759242871308,0.0790976281154912
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","consumption","Log population",1.35224492255424,0.0489617479734035
+"Poverty below USD 3 per day (percent; 2021 PPP)","Matched sample: with public investment","consumption","Previous-year government fixed investment (percent GDP)",1.10693344621404,1.24119914327657

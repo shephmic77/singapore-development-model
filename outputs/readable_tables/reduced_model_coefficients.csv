@@ -1,0 +1,11 @@
+"Model specification","Model predictor","Estimated association (coefficient)","Standard error clustered by country or economy","Lower bound of 95 percent confidence interval","Upper bound of 95 percent confidence interval","Observation count (see file guide)","Number of countries and economies"
+"Year effects only","Model intercept",-5.71604652244479,0.52050638531621,-6.74328377288693,-4.68880927200264,3703,177
+"Year effects only","Trade share in previous year (percentage points of GDP)",-0.000222063189911878,0.000535659490930874,-0.0012792056153651,0.000835079235541347,3703,177
+"Year effects only","Government effectiveness in previous year (estimate units)",0.117017475627272,0.055947966103599,0.00660224059960422,0.22743271065494,3703,177
+"Year effects only","Log GDP per capita in previous year",0.63173446715679,0.0507595002391038,0.531558847932143,0.731910086381438,3703,177
+"Year effects only","Log population in previous year",-0.00318310485905621,0.0165503529010852,-0.0358457954380193,0.0294795857199069,3703,177
+"Country and year effects","Model intercept",-5.37161649921299,1.22357131358308,-7.78637656237992,-2.95685643604606,3703,177
+"Country and year effects","Trade share in previous year (percentage points of GDP)",-0.000126652281497259,0.000336409589407383,-0.00079056817454682,0.000537263611552301,3703,177
+"Country and year effects","Government effectiveness in previous year (estimate units)",0.0214211743398092,0.0238010171966735,-0.0255509515602102,0.0683933002398286,3703,177
+"Country and year effects","Log GDP per capita in previous year",0.342459970528756,0.0591629362446017,0.225699881372371,0.459220059685141,3703,177
+"Country and year effects","Log population in previous year",0.168650460103552,0.0727600542561548,0.0250559909776689,0.312244929229435,3703,177

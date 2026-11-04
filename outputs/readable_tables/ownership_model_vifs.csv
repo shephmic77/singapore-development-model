@@ -1,0 +1,90 @@
+"Outcome being studied","Model specification","Welfare measured as income or consumption","Model predictor","Variance inflation factor after removing fixed effects","Predictor standard deviation after removing fixed effects"
+"Real GDP per capita growth","Matched baseline: ownership omitted","Not applicable","Electoral democracy (0-1)",1.01157000641896,0.066434972619793
+"Real GDP per capita growth","Matched baseline: ownership omitted","Not applicable","Trade share (percent GDP)",1.05299469872348,15.4038449404069
+"Real GDP per capita growth","Matched baseline: ownership omitted","Not applicable","Government effectiveness (estimate units)",1.25739341384143,0.205509022120523
+"Real GDP per capita growth","Matched baseline: ownership omitted","Not applicable","Log PPP GDP per capita",1.35515157925125,0.134450815138872
+"Real GDP per capita growth","Matched baseline: ownership omitted","Not applicable","Log population",1.1444181027847,0.088285844185782
+"Real GDP per capita growth","Ownership/direct-control specification","Not applicable","Electoral democracy (0-1)",1.08833024696698,0.066434972619793
+"Real GDP per capita growth","Ownership/direct-control specification","Not applicable","Trade share (percent GDP)",1.05353779926928,15.4038449404069
+"Real GDP per capita growth","Ownership/direct-control specification","Not applicable","Government effectiveness (estimate units)",1.26436438240202,0.205509022120523
+"Real GDP per capita growth","Ownership/direct-control specification","Not applicable","Log PPP GDP per capita",1.37363800973109,0.134450815138872
+"Real GDP per capita growth","Ownership/direct-control specification","Not applicable","Log population",1.14498474093661,0.088285844185782
+"Real GDP per capita growth","Ownership/direct-control specification","Not applicable","State ownership/direct control (index 0-4)",1.0952491903479,0.151554055963338
+"Real GDP per capita growth","Latent-scale ownership sensitivity","Not applicable","Electoral democracy (0-1)",1.08342401644582,0.066434972619793
+"Real GDP per capita growth","Latent-scale ownership sensitivity","Not applicable","Trade share (percent GDP)",1.05399454223162,15.4038449404069
+"Real GDP per capita growth","Latent-scale ownership sensitivity","Not applicable","Government effectiveness (estimate units)",1.26522409296102,0.205509022120523
+"Real GDP per capita growth","Latent-scale ownership sensitivity","Not applicable","Log PPP GDP per capita",1.36943085234242,0.134450815138872
+"Real GDP per capita growth","Latent-scale ownership sensitivity","Not applicable","Log population",1.14468717876125,0.088285844185782
+"Real GDP per capita growth","Latent-scale ownership sensitivity","Not applicable","State ownership/direct control (reversed latent units)",1.08915379905753,0.250909972837912
+"Real GDP per capita growth","Ownership and public investment jointly; through 2019","Not applicable","Electoral democracy (0-1)",1.08678030184997,0.0576905761086992
+"Real GDP per capita growth","Ownership and public investment jointly; through 2019","Not applicable","Trade share (percent GDP)",1.07995546523351,13.7183164554391
+"Real GDP per capita growth","Ownership and public investment jointly; through 2019","Not applicable","Government effectiveness (estimate units)",1.26333152807159,0.189627132979167
+"Real GDP per capita growth","Ownership and public investment jointly; through 2019","Not applicable","Log PPP GDP per capita",1.43507987648028,0.109475403720797
+"Real GDP per capita growth","Ownership and public investment jointly; through 2019","Not applicable","Log population",1.2268124731835,0.0688276477089386
+"Real GDP per capita growth","Ownership and public investment jointly; through 2019","Not applicable","State ownership/direct control (index 0-4)",1.10131751936151,0.114031888451564
+"Real GDP per capita growth","Ownership and public investment jointly; through 2019","Not applicable","Previous-year government fixed investment (percent GDP)",1.04435882683732,2.10503583536372
+"Living standards: available-indicator basket","Matched baseline: ownership omitted","Not applicable","Electoral democracy (0-1)",1.01176644415553,0.0663612518712629
+"Living standards: available-indicator basket","Matched baseline: ownership omitted","Not applicable","Trade share (percent GDP)",1.05174781941242,15.0603967587458
+"Living standards: available-indicator basket","Matched baseline: ownership omitted","Not applicable","Government effectiveness (estimate units)",1.26015166172166,0.205698967345841
+"Living standards: available-indicator basket","Matched baseline: ownership omitted","Not applicable","Log PPP GDP per capita",1.35580161754041,0.135094452945828
+"Living standards: available-indicator basket","Matched baseline: ownership omitted","Not applicable","Log population",1.13993050724367,0.0884139826332874
+"Living standards: available-indicator basket","Ownership/direct-control specification","Not applicable","Electoral democracy (0-1)",1.08489444963818,0.0663612518712629
+"Living standards: available-indicator basket","Ownership/direct-control specification","Not applicable","Trade share (percent GDP)",1.0519803478514,15.0603967587458
+"Living standards: available-indicator basket","Ownership/direct-control specification","Not applicable","Government effectiveness (estimate units)",1.26676807369708,0.205698967345841
+"Living standards: available-indicator basket","Ownership/direct-control specification","Not applicable","Log PPP GDP per capita",1.37384101208156,0.135094452945828
+"Living standards: available-indicator basket","Ownership/direct-control specification","Not applicable","Log population",1.14042675982193,0.0884139826332874
+"Living standards: available-indicator basket","Ownership/direct-control specification","Not applicable","State ownership/direct control (index 0-4)",1.09061982945876,0.151439808617528
+"Living standards: available-indicator basket","Latent-scale ownership sensitivity","Not applicable","Electoral democracy (0-1)",1.07997094569172,0.0663612518712629
+"Living standards: available-indicator basket","Latent-scale ownership sensitivity","Not applicable","Trade share (percent GDP)",1.05224632876441,15.0603967587458
+"Living standards: available-indicator basket","Latent-scale ownership sensitivity","Not applicable","Government effectiveness (estimate units)",1.26750853142489,0.205698967345841
+"Living standards: available-indicator basket","Latent-scale ownership sensitivity","Not applicable","Log PPP GDP per capita",1.36976318740833,0.135094452945828
+"Living standards: available-indicator basket","Latent-scale ownership sensitivity","Not applicable","Log population",1.14016919552462,0.0884139826332874
+"Living standards: available-indicator basket","Latent-scale ownership sensitivity","Not applicable","State ownership/direct control (reversed latent units)",1.08412057897319,0.250375264146116
+"Living standards: available-indicator basket","Ownership and public investment jointly; through 2019","Not applicable","Electoral democracy (0-1)",1.08616822500052,0.0578094170679049
+"Living standards: available-indicator basket","Ownership and public investment jointly; through 2019","Not applicable","Trade share (percent GDP)",1.08211288666024,13.13955902898
+"Living standards: available-indicator basket","Ownership and public investment jointly; through 2019","Not applicable","Government effectiveness (estimate units)",1.2626187111563,0.189579095228859
+"Living standards: available-indicator basket","Ownership and public investment jointly; through 2019","Not applicable","Log PPP GDP per capita",1.44023034995377,0.109635210530069
+"Living standards: available-indicator basket","Ownership and public investment jointly; through 2019","Not applicable","Log population",1.22589769652206,0.0688832070732065
+"Living standards: available-indicator basket","Ownership and public investment jointly; through 2019","Not applicable","State ownership/direct control (index 0-4)",1.09818538900623,0.113853525792165
+"Living standards: available-indicator basket","Ownership and public investment jointly; through 2019","Not applicable","Previous-year government fixed investment (percent GDP)",1.04485016737584,2.10863716481225
+"Gender Inequality Index (0-1; lower = less inequality)","Matched baseline: ownership omitted","Not applicable","Electoral democracy (0-1)",1.01125370251484,0.0613457272056572
+"Gender Inequality Index (0-1; lower = less inequality)","Matched baseline: ownership omitted","Not applicable","Trade share (percent GDP)",1.05450554516819,14.5778221996371
+"Gender Inequality Index (0-1; lower = less inequality)","Matched baseline: ownership omitted","Not applicable","Government effectiveness (estimate units)",1.29656137284372,0.198254152481639
+"Gender Inequality Index (0-1; lower = less inequality)","Matched baseline: ownership omitted","Not applicable","Log PPP GDP per capita",1.38133707686322,0.123950472154198
+"Gender Inequality Index (0-1; lower = less inequality)","Matched baseline: ownership omitted","Not applicable","Log population",1.12322343172684,0.0781902691828705
+"Gender Inequality Index (0-1; lower = less inequality)","Ownership/direct-control specification","Not applicable","Electoral democracy (0-1)",1.08121487462633,0.0613457272056572
+"Gender Inequality Index (0-1; lower = less inequality)","Ownership/direct-control specification","Not applicable","Trade share (percent GDP)",1.05473680164197,14.5778221996371
+"Gender Inequality Index (0-1; lower = less inequality)","Ownership/direct-control specification","Not applicable","Government effectiveness (estimate units)",1.30214303600221,0.198254152481639
+"Gender Inequality Index (0-1; lower = less inequality)","Ownership/direct-control specification","Not applicable","Log PPP GDP per capita",1.38455563046544,0.123950472154198
+"Gender Inequality Index (0-1; lower = less inequality)","Ownership/direct-control specification","Not applicable","Log population",1.12456683415522,0.0781902691828705
+"Gender Inequality Index (0-1; lower = less inequality)","Ownership/direct-control specification","Not applicable","State ownership/direct control (index 0-4)",1.08178698072255,0.140875232381409
+"Gender Inequality Index (0-1; lower = less inequality)","Latent-scale ownership sensitivity","Not applicable","Electoral democracy (0-1)",1.07920205248306,0.0613457272056572
+"Gender Inequality Index (0-1; lower = less inequality)","Latent-scale ownership sensitivity","Not applicable","Trade share (percent GDP)",1.05504982794275,14.5778221996371
+"Gender Inequality Index (0-1; lower = less inequality)","Latent-scale ownership sensitivity","Not applicable","Government effectiveness (estimate units)",1.30284820826597,0.198254152481639
+"Gender Inequality Index (0-1; lower = less inequality)","Latent-scale ownership sensitivity","Not applicable","Log PPP GDP per capita",1.38306144139744,0.123950472154198
+"Gender Inequality Index (0-1; lower = less inequality)","Latent-scale ownership sensitivity","Not applicable","Log population",1.12496074378213,0.0781902691828705
+"Gender Inequality Index (0-1; lower = less inequality)","Latent-scale ownership sensitivity","Not applicable","State ownership/direct control (reversed latent units)",1.08092656651829,0.235219879834028
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","income","Electoral democracy (0-1)",1.06637463030301,0.034145344336538
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","income","Trade share (percent GDP)",1.11443473094449,11.0946123095595
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","income","Government effectiveness (estimate units)",1.21508094896952,0.146903599326746
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","income","Log PPP GDP per capita",1.18197897401112,0.069827674021536
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","income","Log population",1.13737119758054,0.0388035654086028
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","income","State ownership/direct control (index 0-4)",1.07561470461786,0.0971176021634617
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","income","Electoral democracy (0-1)",1.06637463030301,0.034145344336538
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","income","Trade share (percent GDP)",1.11443473094449,11.0946123095595
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","income","Government effectiveness (estimate units)",1.21508094896952,0.146903599326746
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","income","Log PPP GDP per capita",1.18197897401112,0.069827674021536
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","income","Log population",1.13737119758054,0.0388035654086028
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","income","State ownership/direct control (index 0-4)",1.07561470461786,0.0971176021634617
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","consumption","Electoral democracy (0-1)",1.1423757259045,0.0646622632042757
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","consumption","Trade share (percent GDP)",1.08226249847801,10.7396865111694
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","consumption","Government effectiveness (estimate units)",1.17152306836155,0.16502698535923
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","consumption","Log PPP GDP per capita",1.30584613317721,0.0811713667093049
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","consumption","Log population",1.34701418450299,0.0533651508437174
+"Gini inequality (0-100 points)","Ownership in comparable-survey blocks","consumption","State ownership/direct control (index 0-4)",1.13564339046419,0.121666485915544
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","consumption","Electoral democracy (0-1)",1.1423757259045,0.0646622632042757
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","consumption","Trade share (percent GDP)",1.08226249847801,10.7396865111694
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","consumption","Government effectiveness (estimate units)",1.17152306836155,0.16502698535923
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","consumption","Log PPP GDP per capita",1.30584613317721,0.0811713667093049
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","consumption","Log population",1.34701418450299,0.0533651508437174
+"Poverty below USD 3 per day (percent; 2021 PPP)","Ownership in comparable-survey blocks","consumption","State ownership/direct control (index 0-4)",1.13564339046419,0.121666485915544

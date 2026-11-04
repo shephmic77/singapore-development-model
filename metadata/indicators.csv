@@ -1,0 +1,20 @@
+code,name,category,role,direction,transform,composite,unit,limitation
+NY.GDP.PCAP.PP.KD,GDP per capita PPP,economic,outcome,1,log,TRUE,constant international dollars,National output is not household disposable income
+NY.GDP.PCAP.KD.ZG,Real GDP per capita growth,economic,outcome,1,none,FALSE,annual percent,Volatile cycle dependent report separately
+SL.UEM.TOTL.ZS,Unemployment,economic,outcome,-1,none,TRUE,percent labor force,Modeled ILO estimate definitions and informal employment matter
+SL.GDP.PCAP.EM.KD,Output per employed person,economic,outcome,1,log,FALSE,constant PPP dollars,Overlaps GDP per capita use as sensitivity
+FP.CPI.TOTL.ZG,Consumer price inflation,economic,outcome,0,none,FALSE,annual percent,Neither high inflation nor deflation is unconditionally desirable
+SP.DYN.LE00.IN,Life expectancy,living,outcome,1,none,TRUE,years,National average masks distribution
+SP.DYN.IMRT.IN,Infant mortality,living,outcome,-1,log,TRUE,deaths per 1000 live births,Modeled estimates and correlated health outcomes
+SE.SEC.CUAT.UP.ZS,Secondary educational attainment,living,outcome,1,none,TRUE,percent population age 25 plus,Sparse survey coverage and qualifications differ
+EG.ELC.ACCS.ZS,Electricity access,living,outcome,1,none,TRUE,percent population,Ceiling effect and no quality measurement
+SI.POV.GINI,Gini index,social,outcome,-1,none,FALSE,index 0 to 100,Income versus consumption and survey comparability require review
+SI.POV.DDAY,International poverty rate,social,outcome,-1,none,FALSE,percent population,PPP poverty threshold must be read from saved source metadata
+SL.TLF.CACT.FM.ZS,Female to male participation ratio,social,outcome,1,none,FALSE,percent,Not a complete gender equality measure and values above parity complicate direction
+NE.TRD.GNFS.ZS,Trade share,openness,predictor,0,none,FALSE,percent GDP,Strongly affected by size geography and entrepot trade
+TM.TAX.MRCH.WM.AR.ZS,Weighted applied tariff,openness,predictor,0,none,FALSE,percent,Import weights endogenous and non tariff barriers excluded
+BX.KLT.DINV.WD.GD.ZS,FDI net inflows,openness,predictor,0,none,FALSE,percent GDP,Volatile financial flows and conduit economies
+GOV_WGI_GE.EST,Government effectiveness,capacity,predictor,0,none,FALSE,estimate,Perception index check vintage and uncertainty
+NE.CON.GOVT.ZS,Government consumption,intervention,context,0,none,FALSE,percent GDP,NOT a measure of industrial policy or state ownership
+SP.POP.TOTL,Population,controls,control,0,log,FALSE,people,Contemporary population not historical boundary harmonization
+

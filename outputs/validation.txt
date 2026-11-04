@@ -1,0 +1,3 @@
+PASS: unique country-year-indicator keys; all 11 cases including Hong Kong;
+aggregate exclusion; year bounds; category coverage gates; annual z-score moments;
+percentile bounds; reversed mortality direction; raw file checksums; exact-year lags.

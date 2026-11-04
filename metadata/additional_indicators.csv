@@ -1,0 +1,6 @@
+"code","name","category","role","direction","transform","composite","unit","limitation"
+"v2x_libdem","Liberal democracy index","political_system","predictor",1,"none",FALSE,"index from 0 to 1; higher means more","Expert-coded estimates; uncertainty retained; freedom and democracy share components, so not independent constructs"
+"v2x_freexp_altinf","Freedom of Expression and Alternative Sources of Information index","freedom","descriptive outcome",1,"none",TRUE,"index from 0 to 1; higher means more","Expert-coded estimates; uncertainty retained; freedom and democracy share components, so not independent constructs"
+"v2x_polyarchy","Electoral democracy index","political_system","predictor",1,"none",FALSE,"index from 0 to 1; higher means more","Expert-coded estimates; uncertainty retained; freedom and democracy share components, so not independent constructs"
+"v2x_civlib","Civil liberties index","freedom","descriptive outcome",1,"none",TRUE,"index from 0 to 1; higher means more","Expert-coded estimates; uncertainty retained; freedom and democracy share components, so not independent constructs"
+"v2x_frassoc_thick","Freedom of association thick index","freedom","descriptive outcome",1,"none",TRUE,"index from 0 to 1; higher means more","Expert-coded estimates; uncertainty retained; freedom and democracy share components, so not independent constructs"

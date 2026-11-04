@@ -1,0 +1,91 @@
+"Outcome being studied","Model specification or sensitivity","Model predictor","Estimated association (coefficient)","Standard error clustered by country or economy","Lower bound of 95 percent confidence interval","Upper bound of 95 percent confidence interval","Observation count (see file guide)","Number of countries and economies"
+"Real GDP per capita growth","Year effects only","Electoral democracy (0-1)",0.0996986875799241,0.756165911306013,-1.39365455027774,1.59305192543759,3485,161
+"Real GDP per capita growth","Year effects only","Trade share (percent GDP)",0.00990838184018153,0.00319029026987319,0.00360787260935361,0.0162088910710094,3485,161
+"Real GDP per capita growth","Year effects only","Government effectiveness (estimate units)",0.231443637161238,0.281883974635178,-0.325249464084999,0.788136738407475,3485,161
+"Real GDP per capita growth","Year effects only","Log PPP GDP per capita",-0.590587925275832,0.201378153533858,-0.988289954839929,-0.192885895711736,3485,161
+"Real GDP per capita growth","Year effects only","Log population",0.216713452339976,0.0954128467231057,0.0282824725023978,0.405144432177554,3485,161
+"Real GDP per capita growth","Country and year effects","Electoral democracy (0-1)",-0.957692206632342,1.43650597120013,-3.79465009010593,1.87926567684124,3485,161
+"Real GDP per capita growth","Country and year effects","Trade share (percent GDP)",0.0195809529373677,0.0116913682244738,-0.00350834840768922,0.0426702542824247,3485,161
+"Real GDP per capita growth","Country and year effects","Government effectiveness (estimate units)",1.51003792004635,0.657482826348444,0.211574060617074,2.80850177947562,3485,161
+"Real GDP per capita growth","Country and year effects","Log PPP GDP per capita",-6.98015116762322,1.77524171311946,-10.4860787962413,-3.47422353900511,3485,161
+"Real GDP per capita growth","Country and year effects","Log population",-2.61519393843954,1.38502894988195,-5.35048977220768,0.120101895328593,3485,161
+"Real GDP per capita growth","Country and year effects; income control omitted","Electoral democracy (0-1)",0.0712666500421251,1.40131022777932,-2.69554420560051,2.83807750568476,3562,166
+"Real GDP per capita growth","Country and year effects; income control omitted","Trade share (percent GDP)",0.015859061709638,0.0114034734978643,-0.00665647670609437,0.0383746001253703,3562,166
+"Real GDP per capita growth","Country and year effects; income control omitted","Government effectiveness (estimate units)",-0.252494993833721,0.538914088505589,-1.3165515608788,0.811561573211357,3562,166
+"Real GDP per capita growth","Country and year effects; income control omitted","Log population",0.131026836239749,1.13909792306376,-2.1180600802008,2.3801137526803,3562,166
+"Real GDP per capita growth","Country and year effects; tariffs replace trade","Electoral democracy (0-1)",-2.44798190415301,1.25785732449367,-4.93177794676107,0.0358141384550494,2873,164
+"Real GDP per capita growth","Country and year effects; tariffs replace trade","Weighted applied tariff (percent)",0.00428190958139455,0.00665833999808884,-0.00886581251359676,0.0174296316763859,2873,164
+"Real GDP per capita growth","Country and year effects; tariffs replace trade","Government effectiveness (estimate units)",0.730603997089947,0.839132453057026,-0.926367604968353,2.38757559914825,2873,164
+"Real GDP per capita growth","Country and year effects; tariffs replace trade","Log PPP GDP per capita",-4.90021770679822,2.26371529368879,-9.37020566057419,-0.430229753022258,2873,164
+"Real GDP per capita growth","Country and year effects; tariffs replace trade","Log population",-2.25081065433797,1.18584736714223,-4.59241406220515,0.090792753529219,2873,164
+"Real GDP per capita growth","Country and year effects; Singapore and Hong Kong excluded","Electoral democracy (0-1)",-1.01559318765126,1.44303816241857,-3.86572642286519,1.83454004756267,3439,159
+"Real GDP per capita growth","Country and year effects; Singapore and Hong Kong excluded","Trade share (percent GDP)",0.0230556067062159,0.0127932905235006,-0.00221231999065269,0.0483235334030844,3439,159
+"Real GDP per capita growth","Country and year effects; Singapore and Hong Kong excluded","Government effectiveness (estimate units)",1.59418231020769,0.655906773733541,0.298706040968416,2.88965857944696,3439,159
+"Real GDP per capita growth","Country and year effects; Singapore and Hong Kong excluded","Log PPP GDP per capita",-7.02350837960604,1.77957747362892,-10.5383377405475,-3.50867901866457,3439,159
+"Real GDP per capita growth","Country and year effects; Singapore and Hong Kong excluded","Log population",-2.62659968011393,1.40120868110019,-5.39411583837027,0.140916478142414,3439,159
+"Living standards: available-indicator basket","Year effects only","Electoral democracy (0-1)",0.255437791713998,0.13530350433867,-0.0117861169290422,0.522661700357038,3454,160
+"Living standards: available-indicator basket","Year effects only","Trade share (percent GDP)",0.000107873320313399,0.000550781503802485,-0.000979918063758882,0.00119566470438568,3454,160
+"Living standards: available-indicator basket","Year effects only","Government effectiveness (estimate units)",0.0387084817787433,0.0554463135363368,-0.0707977774674396,0.148214741024926,3454,160
+"Living standards: available-indicator basket","Year effects only","Log PPP GDP per capita",0.681558275730586,0.0484934716849656,0.585783852808833,0.77733269865234,3454,160
+"Living standards: available-indicator basket","Year effects only","Log population",0.0245703040650359,0.0197872952898506,-0.0145095291933307,0.0636501373234024,3454,160
+"Living standards: available-indicator basket","Country and year effects","Electoral democracy (0-1)",0.0438885468834111,0.100847025647133,-0.15528394683854,0.243061040605362,3454,160
+"Living standards: available-indicator basket","Country and year effects","Trade share (percent GDP)",-0.000136019722493344,0.000352566677580723,-0.000832337575463283,0.000560298130476595,3454,160
+"Living standards: available-indicator basket","Country and year effects","Government effectiveness (estimate units)",0.0265559316882123,0.026028326379606,-0.0248499143361852,0.0779617777126098,3454,160
+"Living standards: available-indicator basket","Country and year effects","Log PPP GDP per capita",0.334453488342969,0.0624649374356077,0.211085473476886,0.457821503209051,3454,160
+"Living standards: available-indicator basket","Country and year effects","Log population",0.165406710861916,0.0766310928564813,0.0140605926901327,0.316752829033699,3454,160
+"Living standards: available-indicator basket","Country and year effects; income control omitted","Electoral democracy (0-1)",0.0441633612406713,0.118061074033959,-0.188952311502367,0.27727903398371,3534,165
+"Living standards: available-indicator basket","Country and year effects; income control omitted","Trade share (percent GDP)",-0.000286338859504812,0.000334021726902098,-0.00094587630836096,0.000373198589351336,3534,165
+"Living standards: available-indicator basket","Country and year effects; income control omitted","Government effectiveness (estimate units)",0.124590200899707,0.0284701936648189,0.0683748191271354,0.180805582672279,3534,165
+"Living standards: available-indicator basket","Country and year effects; income control omitted","Log population",0.045219144877374,0.0712655595152231,-0.0954971664533338,0.185935456208082,3534,165
+"Living standards: available-indicator basket","Country and year effects; tariffs replace trade","Electoral democracy (0-1)",0.0479281352177996,0.101147152599712,-0.151799522646233,0.247655793081832,2859,164
+"Living standards: available-indicator basket","Country and year effects; tariffs replace trade","Weighted applied tariff (percent)",-0.000261999137904574,0.00027493737058311,-0.000804897239081734,0.000280898963272587,2859,164
+"Living standards: available-indicator basket","Country and year effects; tariffs replace trade","Government effectiveness (estimate units)",0.0155480919136475,0.02873854595213,-0.0411997484942013,0.0722959323214964,2859,164
+"Living standards: available-indicator basket","Country and year effects; tariffs replace trade","Log PPP GDP per capita",0.341775429856809,0.0579393543858567,0.227366954163601,0.456183905550016,2859,164
+"Living standards: available-indicator basket","Country and year effects; tariffs replace trade","Log population",0.146647754887082,0.070757342244169,0.00692856477760279,0.286366944996561,2859,164
+"Living standards: available-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Electoral democracy (0-1)",0.0446021510882528,0.100703385343054,-0.154306084326473,0.243510386502979,3423,158
+"Living standards: available-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Trade share (percent GDP)",-0.000234312065137187,0.000360804203346705,-0.00094696861758008,0.000478344487305706,3423,158
+"Living standards: available-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Government effectiveness (estimate units)",0.0222028609042509,0.0260320562561933,-0.0292153745055822,0.073621096314084,3423,158
+"Living standards: available-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Log PPP GDP per capita",0.339614932440079,0.0626758749514011,0.215818223449729,0.46341164143043,3423,158
+"Living standards: available-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Log population",0.166498397240762,0.0769379533452238,0.0145313855639839,0.31846540891754,3423,158
+"Living standards: fixed three-indicator basket","Year effects only","Electoral democracy (0-1)",0.261466068348736,0.132353673528179,5.53769689073391e-05,0.522876759728565,3446,159
+"Living standards: fixed three-indicator basket","Year effects only","Trade share (percent GDP)",0.000167357758938198,0.000605167183258744,-0.00102790314738165,0.00136261866525804,3446,159
+"Living standards: fixed three-indicator basket","Year effects only","Government effectiveness (estimate units)",0.0437509779879929,0.0557789068012467,-0.0664174986596954,0.153919454635681,3446,159
+"Living standards: fixed three-indicator basket","Year effects only","Log PPP GDP per capita",0.681984543276284,0.0488717131590532,0.58545841003598,0.778510676516589,3446,159
+"Living standards: fixed three-indicator basket","Year effects only","Log population",0.0280790616467378,0.020332904714604,-0.0120802972702866,0.0682384205637622,3446,159
+"Living standards: fixed three-indicator basket","Country and year effects","Electoral democracy (0-1)",0.00648489720586302,0.102194225733361,-0.195358107917048,0.208327902328774,3446,159
+"Living standards: fixed three-indicator basket","Country and year effects","Trade share (percent GDP)",-0.000146543892464526,0.000360029017035988,-0.000857634349958629,0.000564546565029577,3446,159
+"Living standards: fixed three-indicator basket","Country and year effects","Government effectiveness (estimate units)",0.0292772698833937,0.0231320108940959,-0.0164105814594247,0.074965121226212,3446,159
+"Living standards: fixed three-indicator basket","Country and year effects","Log PPP GDP per capita",0.299709893022032,0.0658744657712906,0.169601757883013,0.429818028161051,3446,159
+"Living standards: fixed three-indicator basket","Country and year effects","Log population",0.184900697353069,0.0750864234506994,0.0365980976272903,0.333203297078848,3446,159
+"Living standards: fixed three-indicator basket","Country and year effects; income control omitted","Electoral democracy (0-1)",0.0131956712247331,0.121127304405768,-0.225985286326184,0.25237662877565,3526,164
+"Living standards: fixed three-indicator basket","Country and year effects; income control omitted","Trade share (percent GDP)",-0.000293357656312178,0.000337062345948887,-0.000958929263423531,0.000372213950799175,3526,164
+"Living standards: fixed three-indicator basket","Country and year effects; income control omitted","Government effectiveness (estimate units)",0.119059498406097,0.0269138635442025,0.0659147208063862,0.172204276005808,3526,164
+"Living standards: fixed three-indicator basket","Country and year effects; income control omitted","Log population",0.0774120064288987,0.0676641549966574,-0.0561992999843848,0.211023312842182,3526,164
+"Living standards: fixed three-indicator basket","Country and year effects; tariffs replace trade","Electoral democracy (0-1)",0.0344831314356554,0.0964026871665121,-0.155884776717528,0.224851039588839,2851,163
+"Living standards: fixed three-indicator basket","Country and year effects; tariffs replace trade","Weighted applied tariff (percent)",-0.000312595002709706,0.000308979811826246,-0.000922742314654756,0.000297552309235344,2851,163
+"Living standards: fixed three-indicator basket","Country and year effects; tariffs replace trade","Government effectiveness (estimate units)",0.0154050072167286,0.0261006239016982,-0.0361363068244146,0.0669463212578718,2851,163
+"Living standards: fixed three-indicator basket","Country and year effects; tariffs replace trade","Log PPP GDP per capita",0.313618974847671,0.0555482239407692,0.203927020151805,0.423310929543538,2851,163
+"Living standards: fixed three-indicator basket","Country and year effects; tariffs replace trade","Log population",0.177621703207895,0.0671692733662985,0.0449814787624352,0.310261927653355,2851,163
+"Living standards: fixed three-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Electoral democracy (0-1)",0.00734483203688078,0.101854424018275,-0.193836922495424,0.208526586569185,3423,158
+"Living standards: fixed three-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Trade share (percent GDP)",-0.000219258171246098,0.000372411418381468,-0.000954841169039154,0.000516324826546958,3423,158
+"Living standards: fixed three-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Government effectiveness (estimate units)",0.0262311048757982,0.0232932864689172,-0.0197775421300456,0.072239751881642,3423,158
+"Living standards: fixed three-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Log PPP GDP per capita",0.303669788213345,0.0662449508914332,0.172823479104045,0.434516097322645,3423,158
+"Living standards: fixed three-indicator basket","Country and year effects; Singapore and Hong Kong excluded","Log population",0.185537076379566,0.075375023971902,0.0366571458636268,0.334417006895504,3423,158
+"Freedom: descriptive basket","Country and year effects","Trade share (percent GDP)",-0.00109017237717079,0.000618050431156421,-0.00231076113782077,0.000130416383479188,3486,161
+"Freedom: descriptive basket","Country and year effects","Government effectiveness (estimate units)",0.0517727671038759,0.074709147791814,-0.0957704454165074,0.199315979624259,3486,161
+"Freedom: descriptive basket","Country and year effects","Log PPP GDP per capita",-0.233440988459989,0.145781824437443,-0.521345740961257,0.0544637640412788,3486,161
+"Freedom: descriptive basket","Country and year effects","Log population",0.0406559730248867,0.14157290231081,-0.238936572602573,0.320248518652346,3486,161
+"Life evaluation: non-overlapping multi-year periods","Year effects only","Electoral democracy (0-1)",0.559838511704585,0.23091877948484,0.103463185305616,1.01621383810355,538,147
+"Life evaluation: non-overlapping multi-year periods","Year effects only","Trade share (percent GDP)",-0.00114798597923341,0.000988483367696745,-0.00310157078761912,0.000805598829152303,538,147
+"Life evaluation: non-overlapping multi-year periods","Year effects only","Government effectiveness (estimate units)",0.196309923424514,0.105724028293106,-0.0126373004787181,0.405257147327746,538,147
+"Life evaluation: non-overlapping multi-year periods","Year effects only","Log PPP GDP per capita",0.602396902412681,0.0703127123189046,0.463434678958509,0.741359125866852,538,147
+"Life evaluation: non-overlapping multi-year periods","Year effects only","Log population",-0.00431409898667519,0.0393533305316054,-0.0820898827766072,0.0734616848032568,538,147
+"Life evaluation: non-overlapping multi-year periods","Country and year effects","Electoral democracy (0-1)",0.338792145704328,0.302598248110491,-0.25924658703654,0.936830878445196,538,147
+"Life evaluation: non-overlapping multi-year periods","Country and year effects","Trade share (percent GDP)",0.00433485332217958,0.00151288181046924,0.0013448759301447,0.00732483071421447,538,147
+"Life evaluation: non-overlapping multi-year periods","Country and year effects","Government effectiveness (estimate units)",0.181562982639511,0.164379834056784,-0.143308388101464,0.506434353380487,538,147
+"Life evaluation: non-overlapping multi-year periods","Country and year effects","Log PPP GDP per capita",0.718705519517043,0.371594172211103,-0.0156930080047539,1.45310404703884,538,147
+"Life evaluation: non-overlapping multi-year periods","Country and year effects","Log population",-0.556154062353007,0.616060160720191,-1.77370188396072,0.661393759254705,538,147
+"Life evaluation: non-overlapping multi-year periods","Country and year effects; income control omitted","Electoral democracy (0-1)",0.371015092676363,0.303986700329665,-0.22966663301731,0.971696818370036,545,150
+"Life evaluation: non-overlapping multi-year periods","Country and year effects; income control omitted","Trade share (percent GDP)",0.0043409666285629,0.00148635430951959,0.00140391092623708,0.00727802233088871,545,150
+"Life evaluation: non-overlapping multi-year periods","Country and year effects; income control omitted","Government effectiveness (estimate units)",0.241026631989087,0.172986617595118,-0.100797203942747,0.582850467920921,545,150
+"Life evaluation: non-overlapping multi-year periods","Country and year effects; income control omitted","Log population",-0.91343539503421,0.580019703893847,-2.05956197324783,0.232691183179411,545,150

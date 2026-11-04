@@ -1,0 +1,90 @@
+"outcome","model","welfare_type","term","vif","residual_predictor_sd"
+"economic_growth","Matched baseline: ownership omitted","Not applicable","democracy",1.01157000641896,0.066434972619793
+"economic_growth","Matched baseline: ownership omitted","Not applicable","trade",1.05299469872348,15.4038449404069
+"economic_growth","Matched baseline: ownership omitted","Not applicable","effectiveness",1.25739341384143,0.205509022120523
+"economic_growth","Matched baseline: ownership omitted","Not applicable","log_income",1.35515157925125,0.134450815138872
+"economic_growth","Matched baseline: ownership omitted","Not applicable","log_population",1.1444181027847,0.088285844185782
+"economic_growth","Ownership/direct-control specification","Not applicable","democracy",1.08833024696698,0.066434972619793
+"economic_growth","Ownership/direct-control specification","Not applicable","trade",1.05353779926928,15.4038449404069
+"economic_growth","Ownership/direct-control specification","Not applicable","effectiveness",1.26436438240202,0.205509022120523
+"economic_growth","Ownership/direct-control specification","Not applicable","log_income",1.37363800973109,0.134450815138872
+"economic_growth","Ownership/direct-control specification","Not applicable","log_population",1.14498474093661,0.088285844185782
+"economic_growth","Ownership/direct-control specification","Not applicable","state_control",1.0952491903479,0.151554055963338
+"economic_growth","Latent-scale ownership sensitivity","Not applicable","democracy",1.08342401644582,0.066434972619793
+"economic_growth","Latent-scale ownership sensitivity","Not applicable","trade",1.05399454223162,15.4038449404069
+"economic_growth","Latent-scale ownership sensitivity","Not applicable","effectiveness",1.26522409296102,0.205509022120523
+"economic_growth","Latent-scale ownership sensitivity","Not applicable","log_income",1.36943085234242,0.134450815138872
+"economic_growth","Latent-scale ownership sensitivity","Not applicable","log_population",1.14468717876125,0.088285844185782
+"economic_growth","Latent-scale ownership sensitivity","Not applicable","state_control_latent",1.08915379905753,0.250909972837912
+"economic_growth","Ownership and public investment jointly; through 2019","Not applicable","democracy",1.08678030184997,0.0576905761086992
+"economic_growth","Ownership and public investment jointly; through 2019","Not applicable","trade",1.07995546523351,13.7183164554391
+"economic_growth","Ownership and public investment jointly; through 2019","Not applicable","effectiveness",1.26333152807159,0.189627132979167
+"economic_growth","Ownership and public investment jointly; through 2019","Not applicable","log_income",1.43507987648028,0.109475403720797
+"economic_growth","Ownership and public investment jointly; through 2019","Not applicable","log_population",1.2268124731835,0.0688276477089386
+"economic_growth","Ownership and public investment jointly; through 2019","Not applicable","state_control",1.10131751936151,0.114031888451564
+"economic_growth","Ownership and public investment jointly; through 2019","Not applicable","public_investment",1.04435882683732,2.10503583536372
+"living_available_basket","Matched baseline: ownership omitted","Not applicable","democracy",1.01176644415553,0.0663612518712629
+"living_available_basket","Matched baseline: ownership omitted","Not applicable","trade",1.05174781941242,15.0603967587458
+"living_available_basket","Matched baseline: ownership omitted","Not applicable","effectiveness",1.26015166172166,0.205698967345841
+"living_available_basket","Matched baseline: ownership omitted","Not applicable","log_income",1.35580161754041,0.135094452945828
+"living_available_basket","Matched baseline: ownership omitted","Not applicable","log_population",1.13993050724367,0.0884139826332874
+"living_available_basket","Ownership/direct-control specification","Not applicable","democracy",1.08489444963818,0.0663612518712629
+"living_available_basket","Ownership/direct-control specification","Not applicable","trade",1.0519803478514,15.0603967587458
+"living_available_basket","Ownership/direct-control specification","Not applicable","effectiveness",1.26676807369708,0.205698967345841
+"living_available_basket","Ownership/direct-control specification","Not applicable","log_income",1.37384101208156,0.135094452945828
+"living_available_basket","Ownership/direct-control specification","Not applicable","log_population",1.14042675982193,0.0884139826332874
+"living_available_basket","Ownership/direct-control specification","Not applicable","state_control",1.09061982945876,0.151439808617528
+"living_available_basket","Latent-scale ownership sensitivity","Not applicable","democracy",1.07997094569172,0.0663612518712629
+"living_available_basket","Latent-scale ownership sensitivity","Not applicable","trade",1.05224632876441,15.0603967587458
+"living_available_basket","Latent-scale ownership sensitivity","Not applicable","effectiveness",1.26750853142489,0.205698967345841
+"living_available_basket","Latent-scale ownership sensitivity","Not applicable","log_income",1.36976318740833,0.135094452945828
+"living_available_basket","Latent-scale ownership sensitivity","Not applicable","log_population",1.14016919552462,0.0884139826332874
+"living_available_basket","Latent-scale ownership sensitivity","Not applicable","state_control_latent",1.08412057897319,0.250375264146116
+"living_available_basket","Ownership and public investment jointly; through 2019","Not applicable","democracy",1.08616822500052,0.0578094170679049
+"living_available_basket","Ownership and public investment jointly; through 2019","Not applicable","trade",1.08211288666024,13.13955902898
+"living_available_basket","Ownership and public investment jointly; through 2019","Not applicable","effectiveness",1.2626187111563,0.189579095228859
+"living_available_basket","Ownership and public investment jointly; through 2019","Not applicable","log_income",1.44023034995377,0.109635210530069
+"living_available_basket","Ownership and public investment jointly; through 2019","Not applicable","log_population",1.22589769652206,0.0688832070732065
+"living_available_basket","Ownership and public investment jointly; through 2019","Not applicable","state_control",1.09818538900623,0.113853525792165
+"living_available_basket","Ownership and public investment jointly; through 2019","Not applicable","public_investment",1.04485016737584,2.10863716481225
+"gender_inequality_index","Matched baseline: ownership omitted","Not applicable","democracy",1.01125370251484,0.0613457272056572
+"gender_inequality_index","Matched baseline: ownership omitted","Not applicable","trade",1.05450554516819,14.5778221996371
+"gender_inequality_index","Matched baseline: ownership omitted","Not applicable","effectiveness",1.29656137284372,0.198254152481639
+"gender_inequality_index","Matched baseline: ownership omitted","Not applicable","log_income",1.38133707686322,0.123950472154198
+"gender_inequality_index","Matched baseline: ownership omitted","Not applicable","log_population",1.12322343172684,0.0781902691828705
+"gender_inequality_index","Ownership/direct-control specification","Not applicable","democracy",1.08121487462633,0.0613457272056572
+"gender_inequality_index","Ownership/direct-control specification","Not applicable","trade",1.05473680164197,14.5778221996371
+"gender_inequality_index","Ownership/direct-control specification","Not applicable","effectiveness",1.30214303600221,0.198254152481639
+"gender_inequality_index","Ownership/direct-control specification","Not applicable","log_income",1.38455563046544,0.123950472154198
+"gender_inequality_index","Ownership/direct-control specification","Not applicable","log_population",1.12456683415522,0.0781902691828705
+"gender_inequality_index","Ownership/direct-control specification","Not applicable","state_control",1.08178698072255,0.140875232381409
+"gender_inequality_index","Latent-scale ownership sensitivity","Not applicable","democracy",1.07920205248306,0.0613457272056572
+"gender_inequality_index","Latent-scale ownership sensitivity","Not applicable","trade",1.05504982794275,14.5778221996371
+"gender_inequality_index","Latent-scale ownership sensitivity","Not applicable","effectiveness",1.30284820826597,0.198254152481639
+"gender_inequality_index","Latent-scale ownership sensitivity","Not applicable","log_income",1.38306144139744,0.123950472154198
+"gender_inequality_index","Latent-scale ownership sensitivity","Not applicable","log_population",1.12496074378213,0.0781902691828705
+"gender_inequality_index","Latent-scale ownership sensitivity","Not applicable","state_control_latent",1.08092656651829,0.235219879834028
+"gini_0_100","Ownership in comparable-survey blocks","income","democracy",1.06637463030301,0.034145344336538
+"gini_0_100","Ownership in comparable-survey blocks","income","trade",1.11443473094449,11.0946123095595
+"gini_0_100","Ownership in comparable-survey blocks","income","effectiveness",1.21508094896952,0.146903599326746
+"gini_0_100","Ownership in comparable-survey blocks","income","log_income",1.18197897401112,0.069827674021536
+"gini_0_100","Ownership in comparable-survey blocks","income","log_population",1.13737119758054,0.0388035654086028
+"gini_0_100","Ownership in comparable-survey blocks","income","state_control",1.07561470461786,0.0971176021634617
+"poverty_3usd_pct","Ownership in comparable-survey blocks","income","democracy",1.06637463030301,0.034145344336538
+"poverty_3usd_pct","Ownership in comparable-survey blocks","income","trade",1.11443473094449,11.0946123095595
+"poverty_3usd_pct","Ownership in comparable-survey blocks","income","effectiveness",1.21508094896952,0.146903599326746
+"poverty_3usd_pct","Ownership in comparable-survey blocks","income","log_income",1.18197897401112,0.069827674021536
+"poverty_3usd_pct","Ownership in comparable-survey blocks","income","log_population",1.13737119758054,0.0388035654086028
+"poverty_3usd_pct","Ownership in comparable-survey blocks","income","state_control",1.07561470461786,0.0971176021634617
+"gini_0_100","Ownership in comparable-survey blocks","consumption","democracy",1.1423757259045,0.0646622632042757
+"gini_0_100","Ownership in comparable-survey blocks","consumption","trade",1.08226249847801,10.7396865111694
+"gini_0_100","Ownership in comparable-survey blocks","consumption","effectiveness",1.17152306836155,0.16502698535923
+"gini_0_100","Ownership in comparable-survey blocks","consumption","log_income",1.30584613317721,0.0811713667093049
+"gini_0_100","Ownership in comparable-survey blocks","consumption","log_population",1.34701418450299,0.0533651508437174
+"gini_0_100","Ownership in comparable-survey blocks","consumption","state_control",1.13564339046419,0.121666485915544
+"poverty_3usd_pct","Ownership in comparable-survey blocks","consumption","democracy",1.1423757259045,0.0646622632042757
+"poverty_3usd_pct","Ownership in comparable-survey blocks","consumption","trade",1.08226249847801,10.7396865111694
+"poverty_3usd_pct","Ownership in comparable-survey blocks","consumption","effectiveness",1.17152306836155,0.16502698535923
+"poverty_3usd_pct","Ownership in comparable-survey blocks","consumption","log_income",1.30584613317721,0.0811713667093049
+"poverty_3usd_pct","Ownership in comparable-survey blocks","consumption","log_population",1.34701418450299,0.0533651508437174
+"poverty_3usd_pct","Ownership in comparable-survey blocks","consumption","state_control",1.13564339046419,0.121666485915544

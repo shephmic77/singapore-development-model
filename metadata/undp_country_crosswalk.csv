@@ -1,0 +1,207 @@
+"iso3","country","included"
+"AFG","Afghanistan",TRUE
+"ALB","Albania",TRUE
+"DZA","Algeria",TRUE
+"AND","Andorra",TRUE
+"AGO","Angola",TRUE
+"ATG","Antigua and Barbuda",TRUE
+"ARG","Argentina",TRUE
+"ARM","Armenia",TRUE
+"AUS","Australia",TRUE
+"AUT","Austria",TRUE
+"AZE","Azerbaijan",TRUE
+"BHS","Bahamas",TRUE
+"BHR","Bahrain",TRUE
+"BGD","Bangladesh",TRUE
+"BRB","Barbados",TRUE
+"BLR","Belarus",TRUE
+"BEL","Belgium",TRUE
+"BLZ","Belize",TRUE
+"BEN","Benin",TRUE
+"BTN","Bhutan",TRUE
+"BOL","Bolivia (Plurinational State of)",TRUE
+"BIH","Bosnia and Herzegovina",TRUE
+"BWA","Botswana",TRUE
+"BRA","Brazil",TRUE
+"BRN","Brunei Darussalam",TRUE
+"BGR","Bulgaria",TRUE
+"BFA","Burkina Faso",TRUE
+"BDI","Burundi",TRUE
+"CPV","Cabo Verde",TRUE
+"KHM","Cambodia",TRUE
+"CMR","Cameroon",TRUE
+"CAN","Canada",TRUE
+"CAF","Central African Republic",TRUE
+"TCD","Chad",TRUE
+"CHL","Chile",TRUE
+"CHN","China",TRUE
+"COL","Colombia",TRUE
+"COM","Comoros",TRUE
+"COG","Congo",TRUE
+"COD","Congo (Democratic Republic of the)",TRUE
+"CRI","Costa Rica",TRUE
+"HRV","Croatia",TRUE
+"CUB","Cuba",TRUE
+"CYP","Cyprus",TRUE
+"CZE","Czechia",TRUE
+"CIV","Côte d'Ivoire",TRUE
+"DNK","Denmark",TRUE
+"DJI","Djibouti",TRUE
+"DMA","Dominica",TRUE
+"DOM","Dominican Republic",TRUE
+"ECU","Ecuador",TRUE
+"EGY","Egypt",TRUE
+"SLV","El Salvador",TRUE
+"GNQ","Equatorial Guinea",TRUE
+"ERI","Eritrea",TRUE
+"EST","Estonia",TRUE
+"SWZ","Eswatini (Kingdom of)",TRUE
+"ETH","Ethiopia",TRUE
+"FJI","Fiji",TRUE
+"FIN","Finland",TRUE
+"FRA","France",TRUE
+"GAB","Gabon",TRUE
+"GMB","Gambia",TRUE
+"GEO","Georgia",TRUE
+"DEU","Germany",TRUE
+"GHA","Ghana",TRUE
+"GRC","Greece",TRUE
+"GRD","Grenada",TRUE
+"GTM","Guatemala",TRUE
+"GIN","Guinea",TRUE
+"GNB","Guinea-Bissau",TRUE
+"GUY","Guyana",TRUE
+"HTI","Haiti",TRUE
+"HND","Honduras",TRUE
+"HKG","Hong Kong, China (SAR)",TRUE
+"HUN","Hungary",TRUE
+"ISL","Iceland",TRUE
+"IND","India",TRUE
+"IDN","Indonesia",TRUE
+"IRN","Iran (Islamic Republic of)",TRUE
+"IRQ","Iraq",TRUE
+"IRL","Ireland",TRUE
+"ISR","Israel",TRUE
+"ITA","Italy",TRUE
+"JAM","Jamaica",TRUE
+"JPN","Japan",TRUE
+"JOR","Jordan",TRUE
+"KAZ","Kazakhstan",TRUE
+"KEN","Kenya",TRUE
+"KIR","Kiribati",TRUE
+"PRK","Korea (Democratic People's Rep. of)",TRUE
+"KOR","Korea (Republic of)",TRUE
+"KWT","Kuwait",TRUE
+"KGZ","Kyrgyzstan",TRUE
+"LAO","Lao People's Democratic Republic",TRUE
+"LVA","Latvia",TRUE
+"LBN","Lebanon",TRUE
+"LSO","Lesotho",TRUE
+"LBR","Liberia",TRUE
+"LBY","Libya",TRUE
+"LIE","Liechtenstein",TRUE
+"LTU","Lithuania",TRUE
+"LUX","Luxembourg",TRUE
+"MDG","Madagascar",TRUE
+"MWI","Malawi",TRUE
+"MYS","Malaysia",TRUE
+"MDV","Maldives",TRUE
+"MLI","Mali",TRUE
+"MLT","Malta",TRUE
+"MHL","Marshall Islands",TRUE
+"MRT","Mauritania",TRUE
+"MUS","Mauritius",TRUE
+"MEX","Mexico",TRUE
+"FSM","Micronesia (Federated States of)",TRUE
+"MDA","Moldova (Republic of)",TRUE
+"MCO","Monaco",TRUE
+"MNG","Mongolia",TRUE
+"MNE","Montenegro",TRUE
+"MAR","Morocco",TRUE
+"MOZ","Mozambique",TRUE
+"MMR","Myanmar",TRUE
+"NAM","Namibia",TRUE
+"NRU","Nauru",TRUE
+"NPL","Nepal",TRUE
+"NLD","Netherlands",TRUE
+"NZL","New Zealand",TRUE
+"NIC","Nicaragua",TRUE
+"NER","Niger",TRUE
+"NGA","Nigeria",TRUE
+"MKD","North Macedonia",TRUE
+"NOR","Norway",TRUE
+"OMN","Oman",TRUE
+"PAK","Pakistan",TRUE
+"PLW","Palau",TRUE
+"PSE","Palestine, State of",TRUE
+"PAN","Panama",TRUE
+"PNG","Papua New Guinea",TRUE
+"PRY","Paraguay",TRUE
+"PER","Peru",TRUE
+"PHL","Philippines",TRUE
+"POL","Poland",TRUE
+"PRT","Portugal",TRUE
+"QAT","Qatar",TRUE
+"ROU","Romania",TRUE
+"RUS","Russian Federation",TRUE
+"RWA","Rwanda",TRUE
+"KNA","Saint Kitts and Nevis",TRUE
+"LCA","Saint Lucia",TRUE
+"VCT","Saint Vincent and the Grenadines",TRUE
+"WSM","Samoa",TRUE
+"SMR","San Marino",TRUE
+"STP","Sao Tome and Principe",TRUE
+"SAU","Saudi Arabia",TRUE
+"SEN","Senegal",TRUE
+"SRB","Serbia",TRUE
+"SYC","Seychelles",TRUE
+"SLE","Sierra Leone",TRUE
+"SGP","Singapore",TRUE
+"SVK","Slovakia",TRUE
+"SVN","Slovenia",TRUE
+"SLB","Solomon Islands",TRUE
+"SOM","Somalia",TRUE
+"ZAF","South Africa",TRUE
+"SSD","South Sudan",TRUE
+"ESP","Spain",TRUE
+"LKA","Sri Lanka",TRUE
+"SDN","Sudan",TRUE
+"SUR","Suriname",TRUE
+"SWE","Sweden",TRUE
+"CHE","Switzerland",TRUE
+"SYR","Syrian Arab Republic",TRUE
+"TJK","Tajikistan",TRUE
+"TZA","Tanzania (United Republic of)",TRUE
+"THA","Thailand",TRUE
+"TLS","Timor-Leste",TRUE
+"TGO","Togo",TRUE
+"TON","Tonga",TRUE
+"TTO","Trinidad and Tobago",TRUE
+"TUN","Tunisia",TRUE
+"TKM","Turkmenistan",TRUE
+"TUV","Tuvalu",TRUE
+"TUR","Türkiye",TRUE
+"UGA","Uganda",TRUE
+"UKR","Ukraine",TRUE
+"ARE","United Arab Emirates",TRUE
+"GBR","United Kingdom",TRUE
+"USA","United States",TRUE
+"URY","Uruguay",TRUE
+"UZB","Uzbekistan",TRUE
+"VUT","Vanuatu",TRUE
+"VEN","Venezuela (Bolivarian Republic of)",TRUE
+"VNM","Viet Nam",TRUE
+"YEM","Yemen",TRUE
+"ZMB","Zambia",TRUE
+"ZWE","Zimbabwe",TRUE
+"ZZA.VHHD","Very high human development",FALSE
+"ZZB.HHD","High human development",FALSE
+"ZZC.MHD","Medium human development",FALSE
+"ZZD.LHD","Low human development",FALSE
+"ZZE.AS","Arab States",FALSE
+"ZZF.EAP","East Asia and the Pacific",FALSE
+"ZZG.ECA","Europe and Central Asia",FALSE
+"ZZH.LAC","Latin America and the Caribbean",FALSE
+"ZZI.SA","South Asia",FALSE
+"ZZJ.SSA","Sub-Saharan Africa",FALSE
+"ZZK.WORLD","World",FALSE

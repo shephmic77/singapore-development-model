@@ -1,0 +1,6 @@
+PASS: unique audited identifiers; all 11 cases; territorial exclusion;
+provider values preserved; valid index ranges; explicit happiness periods;
+strict freedom-basket coverage; exact-year annual lags; non-overlapping happiness windows;
+predictors precede full survey window; no democracy in freedom-outcome model;
+confidence intervals; model sample gates; raw additional-source checksums.
+PASS: historical classification timing; starred exclusions; balanced-reference counts; historical-source checksum.

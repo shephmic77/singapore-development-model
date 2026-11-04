@@ -1,0 +1,7 @@
+"candidate","decision","limit"
+"V-Dem state ownership/direct control","Accepted as a distinct expert-assessed ownership component, with latent-scale sensitivity","Not a percentage of government-owned assets and not all intervention tools"
+"Fraser state-ownership component","Not independent corroboration: documented source is V-Dem","Would duplicate the existing source rather than supply independent ownership data"
+"SWIID published summaries","Accepted for descriptive standardized-income comparisons with provider uncertainty","Provider-modeled estimates, residual incomparability and different last available years"
+"SWIID supplied uncertainty draws","Regression withheld pending format/summary concordance resolution","No guessed conversion or synthetic replacement draws"
+"UNDP Gender Inequality Index","Accepted as a separate gender dimension; no universal social composite","Hong Kong missing; overlaps some health/education domains; composite estimation and source lags"
+"WIID Companion corrected September 2026","Not imported: official file download returned HTTP 403","No bypass attempted; corrected release identified and documented"

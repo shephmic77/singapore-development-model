@@ -1,0 +1,5 @@
+"Data source","decision","limitation"
+"IMF public investment","Use as a narrow fiscal-investment measure, not total intervention","2021 vintage ends in 2019; general government excludes many public corporations and industrial-policy tools"
+"OECD public ownership","Descriptive periodic assessments only; dates and missing cases prevent an annual Singapore-model predictor","Singapore absent; selected cases have mixed legal-reference dates including years after 2024"
+"PIP survey distribution","Use national survey records, separate welfare types and preserve comparability blocks","Singapore/Hong Kong absent; Argentina urban-only; country-level harmonization is incomplete"
+"Singapore local inequality","Separate case-study series; retain population, tax and equivalence definitions","Employment-income and market-income series have different populations; do not splice or pool by label alone"

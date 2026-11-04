@@ -1,0 +1,35 @@
+"source_variable","original_definition"
+,"IMF Investment and Capital Stock Dataset, 1960-2019"
+,
+"Definitions of worksheet variables",
+,
+,
+"igov_rppp","General government investment (gross fixed capital formation), in billions of constant 2017 international dollars."
+,
+"kgov_rppp","General government capital stock (constructed based on general government investment flows ""igov_rppp""), in billions of constant 2017 international dollars."
+,
+"ipriv_rppp","Private investment (gross fixed capital formation), in billions of constant 2017 international dollars."
+,
+"kpriv_rppp","Private capital stock (constructed based on private investment flows ""igov_rppp""), in billions of constant 2017 international dollars."
+,
+"ippp_rppp","Public-private partnership (PPP) investment, in billions of constant 2017 international dollars."
+,
+"kppp_rppp","Public-private partnership (PPP) capital stock (constructed based on PPP investment flows ""ippp_rppp""), in billions of constant 2017 international dollars."
+,
+"GDP_rppp","Gross domestic product, in billions of constant 2017 international dollars."
+,
+"igov_n","General government investment (gross fixed capital formation), in billions of nominal national currency"
+,
+"kgov_n","General government capital stock, in billions of nominal national currency"
+,
+"ipriv_n","Private investment (gross fixed capital formation), in billions of nominal national currency"
+,
+"kpriv_n","Private capital stock, in billions of nominal national currency"
+,
+"kppp_n","Public-private partnership (PPP) capital stock, in billions of nominal national currency."
+,
+"GDP_n","Gross domestic product, in billions of nominal national currency"
+,
+"income","These are country groupings as defined by the IMF World Economic Outlook (WEO): 1=low income developing countries (LIDC); 2=emerging markets (EM); 3=advanced economies (AE)."
+,
+"Other codes","""-"" not available."

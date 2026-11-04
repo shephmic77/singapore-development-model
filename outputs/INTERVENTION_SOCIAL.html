@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>SODA 308: Intervention and social outcomes</title>
+<style>body{font:17px/1.65 system-ui;max-width:1150px;margin:35px auto;padding:0 24px;color:#203040}img{width:100%}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:10px;text-align:left;vertical-align:top}a{color:#075b9e}.note{background:#eef4f7;padding:18px;border-radius:8px}</style>
+<h1>State intervention and social outcomes</h1><p><strong>Latest research:</strong> <a href="BETTER_MEASURES.html">Ownership/direct control and more comparable social measures.</a></p><p class="note"><strong>What changed:</strong> The project now measures general-government investment, audits OECD public-ownership assessments, and uses survey-level definitions for poverty and inequality. These sources answer narrower questions. They do not complete a universal state-intervention index or a fully comparable social score.</p>
+<h2>Three distinctions to keep in mind</h2><ol><li><strong>Government investment is one activity.</strong> It is not the whole system of state ownership or industrial policy.</li><li><strong>Income and consumption are different.</strong> Their poverty and inequality observations are not pooled as identical outcomes.</li><li><strong>Survey coverage matters.</strong> Urban-only results are not treated as nationally representative.</li></ol>
+<h2>Coverage for the 11 selected cases</h2><table><tr><th>Case</th><th>IMF public investment</th><th>OECD ownership assessments</th><th>PIP social-survey status</th></tr>
+<tr><td>Singapore</td><td>50 observed years through 2019</td><td>0 assessments; actual dates retained</td><td>Not covered in this PIP snapshot</td></tr>
+<tr><td>Malaysia</td><td>50 observed years through 2019</td><td>2 assessments; actual dates retained</td><td>Nationally labeled survey observations available</td></tr>
+<tr><td>Philippines</td><td>50 observed years through 2019</td><td>1 assessments; actual dates retained</td><td>Nationally labeled survey observations available</td></tr>
+<tr><td>Thailand</td><td>50 observed years through 2019</td><td>1 assessments; actual dates retained</td><td>Nationally labeled survey observations available</td></tr>
+<tr><td>Indonesia</td><td>50 observed years through 2019</td><td>2 assessments; actual dates retained</td><td>Nationally labeled survey observations available</td></tr>
+<tr><td>South Korea</td><td>50 observed years through 2019</td><td>2 assessments; actual dates retained</td><td>Nationally labeled survey observations available</td></tr>
+<tr><td>Hong Kong</td><td>50 observed years through 2019</td><td>0 assessments; actual dates retained</td><td>Not covered in this PIP snapshot</td></tr>
+<tr><td>Ghana</td><td>50 observed years through 2019</td><td>0 assessments; actual dates retained</td><td>Nationally labeled survey observations available</td></tr>
+<tr><td>Zambia</td><td>28 observed years through 2019</td><td>0 assessments; actual dates retained</td><td>Nationally labeled survey observations available</td></tr>
+<tr><td>Argentina</td><td>50 observed years through 2019</td><td>2 assessments; actual dates retained</td><td>Only non-national coverage; excluded from national models</td></tr>
+<tr><td>El Salvador</td><td>50 observed years through 2019</td><td>0 assessments; actual dates retained</td><td>Nationally labeled survey observations available</td></tr>
+</table><p>Full definitions, dates and source labels are in the labeled coverage table. “Not covered” means absent from this downloaded source, not that the outcome is zero.</p>
+<h2>Public investment: same measure and same comparison years</h2><img src="figures/public_investment_selected_cases.png" alt="Public investment: same measure and same comparison years">
+<h2>Ownership regulation: missing cases and different dates</h2><img src="figures/oecd_ownership_coverage_and_dates.png" alt="Ownership regulation: missing cases and different dates">
+<h2>Available surveys: income, consumption and coverage</h2><img src="figures/social_survey_coverage.png" alt="Available surveys: income, consumption and coverage">
+<h2>Singapore: why the income definition changes the picture</h2><img src="figures/singapore_gini_income_definitions.png" alt="Singapore: why the income definition changes the picture">
+<h2>Observed inequality points: gaps remain visible</h2><img src="figures/gini_survey_observations.png" alt="Observed inequality points: gaps remain visible">
+<h2>Hong Kong: separate census definitions, not annual PIP data</h2><img src="figures/hong_kong_census_gini_definitions.png" alt="Hong Kong: separate census definitions, not annual PIP data">
+<p class="note">6 of 6 main matched-sample public-investment estimates have 95% confidence intervals that include zero. These specifications do not establish a reliable direction of association; this is not proof that the true effect is zero.</p>
+<h2>Public-investment associations: main matched samples</h2><p>Each row estimates the association with one additional percentage point of GDP in previous-year government investment. Brackets show country-clustered 95% confidence intervals. Units differ by outcome. These are not causal effects.</p>
+<table><tr><th>Outcome</th><th>Survey concept</th><th>Coefficient [95% interval]</th><th>Observations / economies</th></tr>
+<tr><td>Real GDP per capita growth (percentage points)</td><td>Not applicable</td><td>0.030 [-0.099, 0.158]</td><td>2,534 / 151</td></tr>
+<tr><td>Living standards (provisional category score)</td><td>Not applicable</td><td>0.0003 [-0.0031, 0.0037]</td><td>2,522 / 151</td></tr>
+<tr><td>Gini inequality (0-100 points)</td><td>income</td><td>-0.190 [-0.435, 0.055]</td><td>841 / 60</td></tr>
+<tr><td>Poverty below USD 3/day (percentage points; 2021 PPP)</td><td>income</td><td>-0.128 [-0.333, 0.077]</td><td>841 / 60</td></tr>
+<tr><td>Gini inequality (0-100 points)</td><td>consumption</td><td>0.161 [-0.051, 0.373]</td><td>374 / 49</td></tr>
+<tr><td>Poverty below USD 3/day (percentage points; 2021 PPP)</td><td>consumption</td><td>-0.368 [-1.118, 0.382]</td><td>374 / 49</td></tr>
+</table><p>For Gini and poverty, a positive coefficient means more measured inequality or poverty, not a better outcome. Missing-data sample loss, alternative specifications and collinearity diagnostics are exported.</p>
+<h2>Documentation and labeled files</h2><ul><li><a href="../docs/intervention_social_findings.md">Findings and remaining gaps</a></li><li><a href="../docs/intervention_social_methods.md">Methods in plain language</a></li><li><a href="../docs/intervention_social_sources.md">Sources, terms and exact definitions</a></li>
+<li><a href="readable_tables/intervention_social_case_coverage.csv">Case coverage table</a></li><li><a href="readable_tables/fiscal_social_model_coefs.csv">All new model coefficients</a></li><li><a href="readable_tables/fiscal_social_model_selections.csv">Sample gates and missing-data losses</a></li>
+<li><a href="CURRENT_RESULTS.html">Main project overview</a></li><li><a href="START_HERE.html">All labeled datasets and file guide</a></li></ul>
+<p>Sources: IMF Investment and Capital Stock Dataset (May 2021), OECD PMR workbook, World Bank PIP (September 2026 release, 2021 PPP), and Singapore Department of Statistics. These are research transformations, not official interpretations by the providers.</p></html>

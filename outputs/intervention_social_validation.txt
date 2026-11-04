@@ -1,0 +1,6 @@
+PASS: original IMF values and same-source ratio; 2019 vintage boundary; all 11 cases;
+OECD values and actual legal-reference dates preserved; no Singapore assessment invented;
+PIP source-value conversions, exact survey keys, national/survey filters and welfare separation;
+Singapore original values and distinct series preserved; six Hong Kong curated source values retained;
+exact-year predictor joins; comparable-block sample gate; paired model membership; clustered intervals; source checksums.
+Hong Kong values were independently checked visually against the rendered PDF table; the automated test preserves that curated transcription.
