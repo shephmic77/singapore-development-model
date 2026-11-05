@@ -1,6 +1,6 @@
 # SODA 308 working outline
 
-[Open the full working outline](../outputs/PAPER_EVIDENCE_GUIDE.html).
+[View the full guide as a PNG](../outputs/PAPER_EVIDENCE_GUIDE.png) or [open the HTML outline](../outputs/PAPER_EVIDENCE_GUIDE.html).
 
 ## From the policy profile to outcomes
 
