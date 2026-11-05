@@ -89,3 +89,7 @@ powershell -NoProfile -File .\sync_github.ps1
 ```
 
 This commits and pushes changes, honors `.gitignore`, checks the expected branch and remote, and stops if GitHub has changes missing locally. It does not rerun the analysis. See [the sync guide](docs/github_sync.md).
+
+## Visual guide to the paper
+
+Open the [working outline](outputs/PAPER_EVIDENCE_GUIDE.html) in a browser. The [diagram guide](docs/paper_visual_guide.md) displays the three process diagrams directly on GitHub.
