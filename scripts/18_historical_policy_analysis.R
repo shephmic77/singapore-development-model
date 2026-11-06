@@ -56,6 +56,30 @@ stopifnot(!anyNA(match_row), all(is.na(export_series$value[match_row])),
           all(supplements$exports_usd>=0), all(supplements$gdp_usd>0))
 export_series$value[match_row] <- supplements$un_share
 
+# Transcribed from visually verified archival pages. Retain the published precision.
+phl_url <- "https://documents1.worldbank.org/curated/en/424591468108545580/pdf/multi0page.pdf#page=19"
+zmb_url <- "https://documents1.worldbank.org/curated/en/508101479417963053/pdf/99107-PUB-world-tables-1971-Box393188B-OUO-9-add-series-World-tables.pdf#page=83"
+phl_archive <- data.frame(iso3="PHL",year=1960:1972,
+  exports_million_pesos=c(1552,1648,1982,2894,3073,3691,4546,4703,4484,4350,7845,8914,8811),
+  gdp_million_pesos=c(13984,15584,16352,19892,22153,24018,26805,29382,30798,32760,40055,50415,55200))
+phl_archive$archive_share <- with(phl_archive,100*exports_million_pesos/gdp_million_pesos)
+phl_archive$source <- "OSCAS/NEC accounts, World Bank archive, table 2.1, PDF page 19"
+phl_archive$url <- phl_url
+zmb_archive <- data.frame(iso3="ZMB",year=1967:1968,
+  exports_million_pesos=NA_real_,gdp_million_pesos=NA_real_,
+  archive_share=c(53.0,55.3),source="IBRD World Tables (1971), table 3 column 4, PDF page 83",
+  url=zmb_url)
+archive_audit <- merge(rbind(phl_archive,zmb_archive),export_series,by=c("iso3","year"),all.x=TRUE)
+names(archive_audit)[names(archive_audit)=="value"] <- "wdi_or_un_share"
+archive_audit$archive_minus_wdi_or_un <- archive_audit$archive_share-archive_audit$wdi_or_un_share
+archive_audit$added <- with(archive_audit,year<1970 & is.na(wdi_or_un_share))
+archive_fill <- archive_audit[archive_audit$added,]
+archive_match <- match(paste(archive_fill$iso3,archive_fill$year),
+                       paste(export_series$iso3,export_series$year))
+stopifnot(!anyNA(archive_match),all(is.na(export_series$value[archive_match])),
+          all(is.finite(archive_fill$archive_share)))
+export_series$value[archive_match] <- archive_fill$archive_share
+
 v <- new.env()
 load("data/raw/v16_vdem.RData",v)
 raw <- v[[ls(v)[1]]]
@@ -102,6 +126,10 @@ is_un <- focus$metric=="Exports of goods and services (% GDP)" &
 focus$evidence[is_un] <- "UNSD AMA supplement"
 focus$evidence[focus$metric=="Exports of goods and services (% GDP)" &
                is.finite(focus$value) & !is_un] <- "World Bank WDI"
+is_archive <- focus$metric=="Exports of goods and services (% GDP)" &
+  paste(focus$iso3,focus$year) %in% paste(archive_fill$iso3,archive_fill$year)
+focus$evidence[is_archive] <- "Archival national accounts"
+stopifnot(sum(is_archive)==nrow(archive_fill), !any(is_archive & is_un))
 stopifnot(sum(is_un)==nrow(supplements),
           all(focus$value[is_un]==supplements$un_share[match(
             paste(focus$iso3[is_un],focus$year[is_un]),paste(supplements$iso3,supplements$year))]))
@@ -150,7 +178,7 @@ for (outcome in c("economic_growth","living_available_basket","gender_inequality
 models <- do.call(rbind,model_rows)
 stopifnot(nrow(models)==51)
 saveRDS(list(historical_focus=focus, outside_reference=reference, coverage=coverage,
-             model_coefficients=models, export_audit=export_audit, un_url=un_url,
+             model_coefficients=models, export_audit=export_audit, archive_audit=archive_audit, un_url=un_url,
              un_archive_md5=unname(tools::md5sum(un_cache)), export_url=export_url,
              export_archive_md5=unname(tools::md5sum(cache))),
         "outputs/historical_policy_analysis.rds")
@@ -185,8 +213,13 @@ writeLines(c('<!doctype html><html lang="en"><meta charset="utf-8"><title>Histor
   table_html(aggregate(added~iso3,export_audit,sum)),
   "<details><summary>Inspect the two sources and overlap by year</summary>",
   table_html(export_audit),"</details>",
+  "<h2>1960s export archive check</h2>",
+  "<p>The Philippine table supplies exports of goods and non-factor services and GDP in current pesos. I divide the published amounts using the GDP row. Its 1960–1966 figures were linked by the original compiler. The Zambia table reports annual gross exports as a percentage of GDP for 1967 and 1968. Its multi-year rows are marked net exports and are excluded. Source changes can affect year-to-year comparisons.</p>",
+  '<p><a href="https://documents1.worldbank.org/curated/en/424591468108545580/pdf/multi0page.pdf#page=19">Philippines source page</a> · <a href="https://documents1.worldbank.org/curated/en/508101479417963053/pdf/99107-PUB-world-tables-1971-Box393188B-OUO-9-add-series-World-tables.pdf#page=83">Zambia source page</a></p>',
+  table_html(archive_audit[setdiff(names(archive_audit),"url")]),
+  '<p>The UN methodology identifies a backward trend in its Zambia exports series for 1970–1990. That is an estimate made by the provider. The two FDI predictions made for this project remain separate. <a href="https://unstats.un.org/unsd/snaama/Metadata/?countrycode=894&amp;groupid=101">UN Zambia metadata</a></p>',
   "<h2>Remaining source checks</h2>",
-  '<p>Earlier export gaps still need annual data with matching exports and GDP definitions. The UN historical survey reports some early multi-year export ratios, which need to stay distinct from annual data. Barro-Lee provides a five-year education series to check against sparse annual education data. <a href="https://unstats.un.org/unsd/snaama/downloads">UN national accounts</a> · <a href="https://www.un.org/en/development/desa/policy/wess/wess_archive/1969_1970wes.pdf">UN historical survey</a> · <a href="https://barrolee.github.io/BarroLeeDataSet/">Barro-Lee education data</a></p>',
+  '<p>Zambia still needs comparable annual values for 1960–1966 and 1969. The Philippines now has a value for each year of the 1960s. The UN historical survey reports some early multi-year export ratios, which need to stay distinct from annual data. Barro-Lee provides a five-year education series to check against sparse annual education data. <a href="https://unstats.un.org/unsd/snaama/downloads">UN national accounts</a> · <a href="https://www.un.org/en/development/desa/policy/wess/wess_archive/1969_1970wes.pdf">UN historical survey</a> · <a href="https://barrolee.github.io/BarroLeeDataSet/">Barro-Lee education data</a></p>',
   "<h2>Matched-sample models</h2>",
   "<p>Within each outcome, all specifications use the same complete rows, previous-year predictors, economy and year effects, and economy-clustered 95% confidence intervals. The baseline uses four predictors. The FDI check adds a fifth to see what it contributes alongside trade. Exports replace trade in one check and capital stock replaces investment in another. These estimates describe associations.</p>",
   table_html(models),
