@@ -69,7 +69,24 @@ zmb_archive <- data.frame(iso3="ZMB",year=1967:1968,
   exports_million_pesos=NA_real_,gdp_million_pesos=NA_real_,
   archive_share=c(53.0,55.3),source="IBRD World Tables (1971), table 3 column 4, PDF page 83",
   url=zmb_url)
-archive_audit <- merge(rbind(phl_archive,zmb_archive),export_series,by=c("iso3","year"),all.x=TRUE)
+# Zambia CSO Monthly Digest figures reproduced in World Bank reports, current million kwacha.
+zmb_report <- "https://documents1.worldbank.org/curated/en/953501468343451790/pdf/multi0page.pdf"
+zmb_earlier <- "https://documents1.worldbank.org/curated/en/497061468171245763/pdf/multi0page.pdf"
+zmb_components <- data.frame(year=c(1964L,1965L,1966L,1969L),
+  goods_exports=c(349.4,366.8,446.0,852.6),service_receipts=c(5.8,6.5,9.7,10.1),
+  gnp=c(433.0,604.4,724.3,1228.1),net_investment_income=c(-69.1,-45.5,-58.0,-47.5),
+  domestic_expenditure=c(366.6,539.3,662.0,838.8),discrepancy=c(-5.8,0,0,0),
+  net_exports=c(141.3,110.6,120.3,436.8))
+zmb_components$gross_exports <- with(zmb_components,goods_exports+service_receipts)
+zmb_components$gdp <- with(zmb_components,gnp-net_investment_income)
+stopifnot(all(abs(with(zmb_components,gdp-domestic_expenditure-discrepancy-net_exports))<0.11))
+zmb_derived <- data.frame(iso3="ZMB",year=zmb_components$year,
+  exports_million_pesos=NA_real_,gdp_million_pesos=NA_real_,
+  archive_share=with(zmb_components,100*gross_exports/gdp),
+  source=c("Monthly Digest via World Bank, tables 2.1 and 3.1, PDF pages 27 and 82",
+           rep("Monthly Digest via World Bank, tables 2.1 and 3.1, PDF pages 79 and 82",3)),
+  url=c(paste0(zmb_earlier,"#page=27"),rep(paste0(zmb_report,"#page=79"),3)))
+archive_audit <- merge(rbind(phl_archive,zmb_archive,zmb_derived),export_series,by=c("iso3","year"),all.x=TRUE)
 names(archive_audit)[names(archive_audit)=="value"] <- "wdi_or_un_share"
 archive_audit$archive_minus_wdi_or_un <- archive_audit$archive_share-archive_audit$wdi_or_un_share
 archive_audit$added <- with(archive_audit,year<1970 & is.na(wdi_or_un_share))
@@ -178,7 +195,7 @@ for (outcome in c("economic_growth","living_available_basket","gender_inequality
 models <- do.call(rbind,model_rows)
 stopifnot(nrow(models)==51)
 saveRDS(list(historical_focus=focus, outside_reference=reference, coverage=coverage,
-             model_coefficients=models, export_audit=export_audit, archive_audit=archive_audit, un_url=un_url,
+             model_coefficients=models, export_audit=export_audit, archive_audit=archive_audit, zmb_components=zmb_components, un_url=un_url,
              un_archive_md5=unname(tools::md5sum(un_cache)), export_url=export_url,
              export_archive_md5=unname(tools::md5sum(cache))),
         "outputs/historical_policy_analysis.rds")
@@ -214,12 +231,15 @@ writeLines(c('<!doctype html><html lang="en"><meta charset="utf-8"><title>Histor
   "<details><summary>Inspect the two sources and overlap by year</summary>",
   table_html(export_audit),"</details>",
   "<h2>1960s export archive check</h2>",
-  "<p>The Philippine table supplies exports of goods and non-factor services and GDP in current pesos. I divide the published amounts using the GDP row. Its 1960–1966 figures were linked by the original compiler. The Zambia table reports annual gross exports as a percentage of GDP for 1967 and 1968. Its multi-year rows are marked net exports and are excluded. Source changes can affect year-to-year comparisons.</p>",
+  "<p>The Philippine table supplies exports of goods and non-factor services and GDP in current pesos. I divide the published amounts using the GDP row. Its 1960–1966 figures were linked by the original compiler. The Zambia table reports annual gross exports as a percentage of GDP for 1967 and 1968. For 1964–1966 and 1969, I add merchandise exports and non-factor service receipts. I calculate GDP as GNP minus signed net investment income and cross-check against the expenditure totals. The source cautions that service receipts are estimates and the mission revised 1969 consumption. Source changes can affect year-to-year comparisons.</p>",
   '<p><a href="https://documents1.worldbank.org/curated/en/424591468108545580/pdf/multi0page.pdf#page=19">Philippines source page</a> · <a href="https://documents1.worldbank.org/curated/en/508101479417963053/pdf/99107-PUB-world-tables-1971-Box393188B-OUO-9-add-series-World-tables.pdf#page=83">Zambia source page</a></p>',
   table_html(archive_audit[setdiff(names(archive_audit),"url")]),
   '<p>The UN methodology identifies a backward trend in its Zambia exports series for 1970–1990. That is an estimate made by the provider. The two FDI predictions made for this project remain separate. <a href="https://unstats.un.org/unsd/snaama/Metadata/?countrycode=894&amp;groupid=101">UN Zambia metadata</a></p>',
+  "<h3>Zambia source inputs in millions of current kwacha</h3>",
+  table_html(zmb_components),
+  sprintf('<p><a href="%s#page=82">Gross export components, table 3.1</a> · <a href="%s#page=79">GDP inputs, table 2.1</a> · <a href="%s#page=27">1964 GDP inputs</a></p>',zmb_report,zmb_report,zmb_earlier),
   "<h2>Remaining source checks</h2>",
-  '<p>Zambia still needs comparable annual values for 1960–1966 and 1969. The Philippines now has a value for each year of the 1960s. The UN historical survey reports some early multi-year export ratios, which need to stay distinct from annual data. Barro-Lee provides a five-year education series to check against sparse annual education data. <a href="https://unstats.un.org/unsd/snaama/downloads">UN national accounts</a> · <a href="https://www.un.org/en/development/desa/policy/wess/wess_archive/1969_1970wes.pdf">UN historical survey</a> · <a href="https://barrolee.github.io/BarroLeeDataSet/">Barro-Lee education data</a></p>',
+  '<p>Zambia still needs comparable annual values for 1960–1963. Federation-wide figures and constant-price exports cannot fill these current-price territorial gaps. The Philippines now has a value for each year of the 1960s. The UN historical survey reports some early multi-year export ratios, which need to stay distinct from annual data. Barro-Lee provides a five-year education series to check against sparse annual education data. <a href="https://unstats.un.org/unsd/snaama/downloads">UN national accounts</a> · <a href="https://www.un.org/en/development/desa/policy/wess/wess_archive/1969_1970wes.pdf">UN historical survey</a> · <a href="https://barrolee.github.io/BarroLeeDataSet/">Barro-Lee education data</a></p>',
   "<h2>Matched-sample models</h2>",
   "<p>Within each outcome, all specifications use the same complete rows, previous-year predictors, economy and year effects, and economy-clustered 95% confidence intervals. The baseline uses four predictors. The FDI check adds a fifth to see what it contributes alongside trade. Exports replace trade in one check and capital stock replaces investment in another. These estimates describe associations.</p>",
   table_html(models),
