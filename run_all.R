@@ -9,6 +9,8 @@ source('tests/validate.R')
 source('tests/validate_extended.R')
 source('tests/validate_intervention_social.R')
 source('tests/validate_better_measures.R')
+source('scripts/17_historical_gap_pilot.R')
+source('scripts/18_historical_policy_analysis.R')
 writeLines(capture.output(sessionInfo()),'outputs/session_info.txt')
 message('Finished. Open outputs/BETTER_MEASURES.html for the latest results.')
 

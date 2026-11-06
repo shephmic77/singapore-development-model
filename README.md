@@ -93,3 +93,7 @@ This commits and pushes changes, honors `.gitignore`, checks the expected branch
 ## Visual guide to the paper
 
 Open the [working outline](outputs/PAPER_EVIDENCE_GUIDE.html) in a browser. The [diagram guide](docs/paper_visual_guide.md) displays the three process diagrams directly on GitHub.
+
+## Historical policy comparisons
+
+Open [historical policy analysis](outputs/HISTORICAL_POLICY_ANALYSIS.html) for FDI, exports, public capital stock, and a separate historical public administration measure. It shows the 11 focus economies against outside benchmarks and runs matched-sample model checks. The [historical gap pilot](outputs/HISTORICAL_GAP_PILOT.html) keeps project predictions separate. Run the full R workflow or source scripts 17 and 18 after building the main project data.
